@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Konexio</title>
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/swiper.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <h2>
+            <a class="navbar-brand" href="./index.html">Konexio</a>
+        </h2>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#students">Apprenants</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#volunteers">Bénévoles</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#gallery">Les EPN</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#team">L'équipe</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Login</button>
+            </form>
+        </div>
+    </nav>
+    <div class="wrapper">
+        <section class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-9 col-md-6 col-sm-12">
+                        <h1>Konexio</h1>
+                        <p>Aider les réfugiés à s'intégrer grâce au numérique</p>
+                    </div>
+                    <aside class="col-lg-3 col-md-6 col-sm-12">
+                        <form>
+                            <h4>
+                                Programme Digitous starter
+                            </h4>
+                            <label class="my-1 mr-2" for="inlineFormCustomSelectPref">S'inscrire à la prochaine session</label>
+                            <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                                <option selected>Choisir...</option>
+                                <option value="jan">Janvier</option>
+                                <option value="mar">Mars</option>
+                                <option value="jun">Juin</option>
+                                <option value="sep">Septembre</option>
+                            </select>
+                            <button type="submit" class="btn btn-primary my-1">M'inscrire</button>
+
+                        </form>
+                    </aside>
+                </div>
+            </div>
+        </section>
+        <section class="students bg-blue" id="students">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="./img/student.jpg" class="img-fluid" />
+                    </div>
+                    <div class="col-6">
+                        <p>Apprenez à utiliser un ordinateur, les outils de bureautiques ou à programmer. Chacune de nos formations
+                            est abouti à une certification</p>
+                        <button class="btn btn-outline-light">Je veux étudier</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section.students -->
+        <section class="volunteers" id="volunteers">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <p>Vous avez envie d'aider des personnes qui cherchent à apprendre et à s'intégrer ? Si vous avez des
+                            connaissances en informatique de bureau, sur Excel ou en programmation, envoyez nous un message</p>
+                        <button class="btn btn-outline-dark">Je veux aider</button>
+                    </div>
+                    <div class="col-6">
+                        <img src="./img/volunteer.jpg" class="img-fluid" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section.volunteers -->
+        <section class="gallery" id="gallery">
+            <div class="container">
+                <div class="row">
+                    <div class="swiper-container col-4 col-offset-4">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="./img/gallery/gallery1.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/gallery/gallery2.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/gallery/gallery3.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/gallery/gallery4.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/gallery/gallery5.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/gallery/gallery6.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/gallery/gallery7.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/gallery/gallery8.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/gallery/gallery9.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/gallery/gallery10.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/gallery/gallery3.jpg" />
+                            </div>
+                        </div>
+                        <!-- div.swiper-wrapper -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                    <!-- div.swiper-container -->
+                </div>
+            </div>
+        </section>
+        <!-- section.gallery -->
+        <section class="team container" id="team">
+            <div class="row">
+                <h2>L'équipe</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-xs-12 team-member">
+                    <img src="./img/people/jean.jpg" class="img-fluid rounded-circle">
+                    <h4>Jean</h4>
+                    <h6 class="job">Foundatrice &amp; gérante</h6>
+                </div>
+                <div class="col-md-4 col-xs-12 team-member">
+                    <img src="./img/people/binta.jpg" class="rounded-circle img-fluid img-raised">
+                    <h4>Binta</h4>
+                    <h6>Directrice des programmes</h6>
+                </div>
+                <div class="col-md-4 col-xs-12 team-member">
+                    <img src="./img/people/denis.jpg" class="rounded-circle img-fluid img-raised">
+                    <h4>Denis</h4>
+                    <h6>Formateur</h6>
+                </div>
+        </section>
+        <!-- section.team -->
+        <section class="contact">
+            <div class="container">
+                <h2>Vous voulez nous contacter ?</h2>
+                <p>Faites nous part de votre projet</p>
+                <div class="row">
+                    <div class="col-lg-6 text-center col-md-8 ml-auto mr-auto">
+                        <div class="input-group input-lg">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <i class="fas fa-user"></i>
+                                </span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Prénom">
+                        </div>
+                        <div class="input-group input-lg">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <i class="fas fa-envelope"></i>
+                                </span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="textarea-container">
+                            <textarea class="form-control" name="name" rows="4" cols="80" placeholder="Votre message..."></textarea>
+                        </div>
+                        <div class="send-button">
+                            <a href="#pablo" class="btn btn-round btn-block btn-lg">Envoyer message</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section.contact -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <h6>Konexio</h6>
+                        <ul>
+                            <li>
+                                <a href="#">Mentions légales</a>
+                            </li>
+                            <li>
+                                <a href="#">Vie privée</a>
+                            </li>
+                            <li>
+                                <a href="#">Conditions d'utilisations</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-6">
+                        <h6>Réseaux sociaux</h6>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-1x fa-instagram"></i> Instagram</a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i> Twitter</a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-facebook"></i> Facebook</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        </div>
+        <!-- /div.wrapper -->
+        <script src="./js/swiper.min.js"></script>
+        <script>
+            var mySwiper = new Swiper('.swiper-container', {
+                speed: 400,
+                spaceBetween: 100,
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+        </script>
+</body>
+
+</html>
