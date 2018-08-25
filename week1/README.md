@@ -4,7 +4,7 @@
 
 # Préparation
 
-- Aller sur cette (page)[https://github.com/konexio/digistart], cliquer sur le bouton vert `Cloner ou télécharger` puis cliquer sur le bouton `ZIP`
+- Aller sur ce lien [https://github.com/konexio/digistart](https://github.com/konexio/digistart), cliquer sur le bouton vert `Cloner ou télécharger` puis cliquer sur le bouton `ZIP`
 - Enregistrer le fichier dans le dossier `digistart` à l'intérieur du dossier `Konexio` sur le Bureau
 - Décompresser le fichier
 - Ouvrir votre éditeur de texte `VSCode`
