@@ -347,8 +347,6 @@ Pour ajouter un favicon, rechercher sur Google `how to add favicon in html`. Cli
 
 Une fois prêt(e), ajouter le favicon qui se trouve dans le dossier `img` avec le nom `favicon.ico`
 
-## Bonus 2 : Meta charset
+## Bonus 2 : Formulaire de contact
 
-## Bonus 3 : Viewport
-
-## Bonus 4 : Formulaire de contact
+Essayer de reproduire le formulaire de contact. Pour le recréer, vous aurez besoin des balises déjà utilisés et des balises `input` et `textarea`
