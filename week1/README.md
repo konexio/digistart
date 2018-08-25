@@ -4,16 +4,15 @@
 
 # Préparation
 
-- Créer un dossier `<votre_nom>_<mois>_<année>` dans le dossier `digitous`
-
-  - Si votre nom est `martin`, pendant la session du mois d' `octobre` en `2018` alors le dossier s'appelera `martin_oct_2018`
-
+- Aller sur cette (page)[https://github.com/konexio/digistart], cliquer sur le bouton vert `Cloner ou télécharger` puis cliquer sur le bouton `ZIP`
+- Enregistrer le fichier dans le dossier `digistart` à l'intérieur du dossier `Konexio` sur le Bureau
+- Décompresser le fichier
 - Ouvrir votre éditeur de texte `VSCode`
 
   - Dans la barre de tâches utilisez `Fichier > Ouvrir un dossier`
-  - Rechercher le dossier que vous venez de créer et cliquer sur `Ouvrir`
+  - Rechercher le dossier que vous venez de créer et cliquer sur le dossier `week1` puis cliquer sur `Ouvrir`
 
-Votre dossier est vide et c'est normal. Vous allez créer une page à partir de rien.
+Votre dossier contient 4 dossiers et 2 fichiers, c'est normal.
 
 # Structure de la page HTML
 
