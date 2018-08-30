@@ -140,6 +140,11 @@ section.gallery .swiper-slide {
   /* margin-left: 200px; */
 }
 
+.swiper-pagination-bullet-active,
+.swiper-pagination-bullet {
+  background: white;
+}
+
 /**
  *
  * TEAM

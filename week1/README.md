@@ -164,7 +164,7 @@ Sinon, appeler un formateur.
 
 A la suite de la section de l'entête, on va reproduire la même structure à quelque chose près. Sauf pour l'`id` qui sera de valeur `students`
 
-- Créer la balise `section` avec l'attribut `id` de valeur `students` et l'attribut `class` de valeur `bg-primary`
+- Créer la balise `section` avec l'attribut `id` de valeur `students`
   - Dans cet élément, créer une balise `div` avec l'attribut `class`de valeur `container`
     - Dans cet élément, créer une balise `div` avec l'attribut `class` de valeur `row`
       - Dans cet élément, créer une balise auto-fermante `img` avec l'attribut `src` de valeur `./img/student.jpg` et l'attribut `alt` de valeur `Etudiant à Konexio`
@@ -174,15 +174,16 @@ A la suite de la section de l'entête, on va reproduire la même structure à qu
 
 ## A savoir
 
-- La classe `bg-primary` est une classe définie par Bootstrap pour changer le fond blanc en bleu. On va voir dans les prochaines semaines comment ça marche.
-- La balise `img` nécessite l'attribut `src` qui contient le chemin relatif vers l'image qui se trouve dans le dossier de votre ordinateur qui s'appelle aussi `img`.
-- La balise `img` nécessite l'attribut `alt` qui contient un texte qui définit ce qu'il y a dans l'image. Cet attribut est obligatoire pour des raisons d'accessibilité.
+- Une balise auto-fermante est une balise qui se ferme directement. Par exemple, la balise `img` est auto-fermante et s'écrit comme ça : `<img />`
+- Les chemins des fichiers sont relatifs au fichier qui les appelle. Ici, le fichier Bootstrap se trouve dans le dossier `css` qui est adjacent au fichier `index.html`
+
+* La balise `img` nécessite l'attribut `src` qui contient le chemin relatif vers l'image qui se trouve dans le dossier de votre ordinateur qui s'appelle aussi `img`.
+* La balise `img` nécessite l'attribut `alt` qui contient un texte qui définit ce qu'il y a dans l'image. Cet attribut est obligatoire pour des raisons d'accessibilité.
 
 ## Vérification
 
 Avant de passer à l'étape suivante, vérifier que :
 
-- le fond est bleu,
 - l'image apparaît,
 - le texte est à la suite
 - et qu'il y a un bouton à la fin
@@ -207,7 +208,7 @@ Avant de passer à l'étape suivante, vérifier que le paragraphe, le bouton et 
 
 # La section "EPN"
 
-A la suite de la section bénévoles, reproduire la même structure jusqu'à la `div` de classe `row`, mais avec l'`id` `gallery` et la classe `bg-primary`
+A la suite de la section bénévoles, reproduire la même structure jusqu'à la `div` de classe `row`, mais avec l'`id` `gallery`
 
 - Ensuite, créer la balise `img` et afficher l'image qui se trouve dans le dossier `img`, puis dans le dossier `gallery` et avec le nom `gallery1.jpg`
 - Créer 2 autres balises avec 2 autres images qui viennent du même dossier.
@@ -251,7 +252,7 @@ Avant de passer à l'étape suivante, vérifier que les 3 images s'affichent.
 
 # Le pied de page
 
-- Créer la balise `footer` avec la classe `bg-primary`
+- Créer la balise `footer`
   - Dans cet élément, créer une `div` de classe `container`
     - Dans cet élément créer une `div` de classe `row`
 
@@ -284,8 +285,8 @@ Avant de passer à l'étape suivante, assurez-vous que tous vos textes s'affiche
 Maintenant que vous êtes à l'aise avec l'écriture de l'HTML et que la structure est présente, on va revenir en haut de la page pour ajouter la barre de navigation
 
 - Ajouter la balise `nav` entre la balise d'ouverture `body` et la balise d'ouverture `section` avec l'`id` `header`
-  - Dans cet élément, créer une ancre avec le texte `Konexio`, l'ancre sera elle-même dans une balise `h2`
-  - Créer une balise `div` dans laquelle il y aura 4 fois :
+  - Dans cet élément, créer une ancre avec le texte `Konexio` et l'attribut `href` avec la valeur `#header`, l'ancre sera elle-même dans une balise `h2`
+  - Créer une balise `ul` dans laquelle il y aura 4 fois :
     - une balise `li` avec une ancre à l'intérieur
       - chaque ancre aura le texte `Etudiants`, `Bénévoles`, `Les EPN`, `L'équipe`
       - chaque ancre aura un attribut `href` avec l'`id` de la section qu'il appelle précédé d'un dièse (hashtag). Par exemple, l'ancre avec le texte `Etudiants` aura un attribut `href="#students"`

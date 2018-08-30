@@ -14,7 +14,7 @@
 <body>
     <nav class="navbar navbar-expand-lg fixed-top">
         <h2>
-            <a class="navbar-brand" href="./index.html">Konexio</a>
+            <a class="navbar-brand" href="#header">Konexio</a>
         </h2>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
             aria-expanded="false" aria-label="Toggle navigation">
@@ -41,7 +41,7 @@
             </form>
         </div>
     </nav>
-    <section class="header">
+    <section class="header" id="header">
         <div class="container">
             <div class="row">
                 <div class="col-lg-9 col-md-6 col-sm-12">
@@ -55,13 +55,13 @@
                         </h4>
                         <label class="my-1 mr-2" for="inlineFormCustomSelectPref">S'inscrire à la prochaine session</label>
                         <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref" name="month">
-                            <option selected>Choisir...</option>
+                            <option selected disabled>Choisir...</option>
                             <option value="jan">Janvier</option>
                             <option value="mar">Mars</option>
                             <option value="jun">Juin</option>
                             <option value="sep">Septembre</option>
                         </select>
-                        <button type="submit" class="btn btn-primary my-1">M'inscrire</button>
+                        <button type="submit" class="btn btn-primary my-1" disabled>M'inscrire</button>
 
                     </form>
                 </aside>
@@ -101,7 +101,7 @@
     <section class="gallery" id="gallery">
         <div class="container">
             <div class="row">
-                <div class="swiper-container col-4 col-offset-4">
+                <div class="swiper-container col-4 col-offset-2">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <img src="./img/gallery/gallery1.jpg" />
@@ -138,8 +138,7 @@
                         </div>
                     </div>
                     <!-- div.swiper-wrapper -->
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
+                    <div class="swiper-pagination"></div>
                 </div>
                 <!-- div.swiper-container -->
             </div>
@@ -152,20 +151,23 @@
         </div>
         <div class="row">
             <div class="col-md-4 col-xs-12 team-member">
-                <img src="./img/people/jean.jpg" class="img-fluid rounded-circle">
+                <img src="./img/people/jean.jpg" class="img-fluid rounded-circle" />
                 <h4>Jean</h4>
                 <h6 class="job">Foundatrice &amp; gérante</h6>
             </div>
+            <!-- /div.team-member -->
             <div class="col-md-4 col-xs-12 team-member">
-                <img src="./img/people/binta.jpg" class="rounded-circle img-fluid img-raised">
+                <img src="./img/people/binta.jpg" class="rounded-circle img-fluid" />
                 <h4>Binta</h4>
                 <h6>Directrice des programmes</h6>
             </div>
+            <!-- /div.team-member -->
             <div class="col-md-4 col-xs-12 team-member">
-                <img src="./img/people/denis.jpg" class="rounded-circle img-fluid img-raised">
+                <img src="./img/people/denis.jpg" class="rounded-circle img-fluid" />
                 <h4>Denis</h4>
                 <h6>Formateur</h6>
             </div>
+            <!-- /div.team-member -->
     </section>
     <!-- section.team -->
     <section class="contact">
@@ -240,15 +242,36 @@
     </footer>
     </div>
     <!-- /div.wrapper -->
+    <!-- <script src="./js/jquery-3.3.1.min.js"></script> -->
+    <script src="./js/smooth-scroll.min.js"></script>
     <script src="./js/swiper.min.js"></script>
     <script>
+        // jQuery(() => {
+        //     jQuery('select').on('change', (e) => {
+        //         const value = e.target.value;
+        //         const subscribeBtn = $('form button');
+
+        //         if (value !== '') {
+        //             subscribeBtn.attr('disabled', false);
+        //         } else {
+        //             subscribeBtn.attr('disabled', true);
+        //         }
+        //         // console.log("ok", e.target.value)
+        //     })
+        // });
+        const scroll = new SmoothScroll('a[href*="#"]');
         var mySwiper = new Swiper('.swiper-container', {
             speed: 400,
             spaceBetween: 100,
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+                clickable: true
+            }
+            // navigation: {
+            //     nextEl: '.swiper-button-next',
+            //     prevEl: '.swiper-button-prev',
+            // },
         });
     </script>
 </body>
