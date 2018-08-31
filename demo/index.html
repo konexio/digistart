@@ -242,27 +242,25 @@
     </footer>
     </div>
     <!-- /div.wrapper -->
-    <!-- <script src="./js/jquery-3.3.1.min.js"></script> -->
+    <script src="./js/jquery-3.3.1.min.js"></script>
     <script src="./js/smooth-scroll.min.js"></script>
     <script src="./js/swiper.min.js"></script>
     <script>
-        // jQuery(() => {
-        //     jQuery('select').on('change', (e) => {
-        //         const value = e.target.value;
-        //         const subscribeBtn = $('form button');
+        jQuery(() => {
+            jQuery('select').on('change', (e) => {
+                const value = e.target.value;
+                const subscribeBtn = $('form button');
 
-        //         if (value !== '') {
-        //             subscribeBtn.attr('disabled', false);
-        //         } else {
-        //             subscribeBtn.attr('disabled', true);
-        //         }
-        //         // console.log("ok", e.target.value)
-        //     })
-        // });
+                if (value !== '') {
+                    subscribeBtn.attr('disabled', false);
+                } else {
+                    subscribeBtn.attr('disabled', true);
+                }
+            })
+        });
         const scroll = new SmoothScroll('a[href*="#"]');
         var mySwiper = new Swiper('.swiper-container', {
             speed: 400,
-            spaceBetween: 100,
             pagination: {
                 el: '.swiper-pagination',
                 type: 'bullets',

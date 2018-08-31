@@ -310,7 +310,7 @@ Avant de passer à l'étape suivante, vérifier que les liens redirige tous sur 
     - Ensuite, une balise `button` avec le texte `M'inscrire` et l'attribut `type` de valeur `submit`
 
 - Dans la balise `select`
-  - Créer une balise `option` avec le texte `Choisir`
+  - Créer une balise `option` avec le texte `Choisir` et l'attribut `value` qui est vide
   - Créer 4 balises `option` avec le texte et l'attribut `value` de valeur `Janvier`, `Mars`, `Juin`, `Septembre`
 
 ## A savoir
