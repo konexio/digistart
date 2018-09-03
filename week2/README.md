@@ -171,6 +171,12 @@ Dans l'élément `head`
 Avant de finir la semaine, regarder si les icônes apparaissent.
 Sinon, appeler un formateur.
 
+# Ce qu'il faut retenir
+
+## Framework
+
+Un framework, encore appelé "structure logicielle" en français, établit les fondations d'un logiciel ou son squelette applicatif. Il permet d'accéler et de standardiser le développement d'une application.
+
 # Bonus
 
 # Bonus #1 : Bouton de login
