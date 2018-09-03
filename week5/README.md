@@ -100,7 +100,8 @@ Voici le code que vous allez reproduire ensemble
         });
 </script>
 ```
-# Ce qu'il faut retenir
+
+# Les termes à retenir
 
 ## Jquery
 
