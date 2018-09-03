@@ -325,12 +325,19 @@ Avant de finir la semaine 1, vérifier qu'après avoir sélectionné un mois et 
 
 Avant d'écrire du code, voici les points de vocabulaire à connaître :
 
-- les mots `balise` et `élément` sont équivalents en HTML.
+## HTML
+
+L'HTML est un langage informatique crée en 1990 au CERN. L'acronyme signifie HyperText Markup Language, ce qui signifie en français "langage de balisage d'hypertexte". Cette signification porte bien son nom puisqu'effectivement ce langage permet de réaliser de l'hypertexte à base d'une structure de balisage.
+
+## CSS
+
+Håkon Wium Lie a publié la première version du "Cascading HTML Style Sheets" en 1994 après avoir réalisé que l'HTML ne devait pas devenir un langage de description de page et qu'un mécanisme plus spécifique devait être mis en place.
 
 ## Balise
 
 - quand on parle de : "balise `div`" alors on parle d'un élément HTML de nom `div` qui s'écrit en HTML : `<div>`. Vous devrez l'écrire dans votre code comme ci-suit : `<div></div>` car toute balise ouverte doit être fermée, comme une boîte.
 - quand on parle de : "balise auto-fermante `img`" alors on parme d'un élément HTML de nom `img` qui s'écrit comme ça : `<img />`
+- les mots `balise` et `élément` sont équivalents en HTML.
 
 ## Attribut
 
