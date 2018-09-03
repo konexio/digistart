@@ -163,7 +163,7 @@ Pour que la page soit adaptée au mobile.
 
 Pour passer à l'étape suivante, demander à un formateur de regarder le code. Le seul moyen de voir si ça a fonctionné, c'est de regarder sur un vrai téléphone.
 
-# Ce qu'il faut retenir
+# Les termes à retenir
 
 ## Responsive design
 
