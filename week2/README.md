@@ -171,7 +171,7 @@ Dans l'élément `head`
 Avant de finir la semaine, regarder si les icônes apparaissent.
 Sinon, appeler un formateur.
 
-# Ce qu'il faut retenir
+# Les termes à retenir
 
 ## Framework
 
