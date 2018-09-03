@@ -163,6 +163,12 @@ Pour que la page soit adaptée au mobile.
 
 Pour passer à l'étape suivante, demander à un formateur de regarder le code. Le seul moyen de voir si ça a fonctionné, c'est de regarder sur un vrai téléphone.
 
+# Ce qu'il faut retenir
+
+## Responsive design
+
+Avec l'émergence des smartphones et des tablettes tactiles, il existe un grand nombre de résolutions d'affichage, rendant parfois l'expérience utilisateur difficile. On appelle Responsive Design ou Responsive Web Design (littéralement conception web adaptive) la faculté d'un site web à s'adapter au terminal de lecture.
+
 # Bonus
 
 ## Bonus #1 : Police d'écriture
