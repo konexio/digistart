@@ -168,7 +168,7 @@ A la suite de la section de l'entête, on va reproduire la même structure à qu
   - Dans cet élément, créer une balise `div` avec l'attribut `class`de valeur `container`
     - Dans cet élément, créer une balise `div` avec l'attribut `class` de valeur `row`
       - Dans cet élément, créer une balise auto-fermante `img` avec l'attribut `src` de valeur `./img/student.jpg` et l'attribut `alt` de valeur `Etudiant à Konexio`
-      - A la suite, créer une balise `p` avec le texte `Apprenez à utiliser un ordinateur, les outils de bureautiques ou à programmer. Chacune de nos formations est abouti à une certification`
+      - A la suite, créer une balise `p` avec le texte `Apprenez à utiliser un ordinateur, les outils de bureautiques ou à programmer. Chacune de nos formations aboutie à une certification`
       - Créer une balise `button` avec le texte `Je veux étudier`
 - Enfin, ajouter un commentaire `<!-- /section#students -->` juste après la balise fermante `</section>`
 
