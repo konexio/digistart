@@ -100,6 +100,14 @@ Voici le code que vous allez reproduire ensemble
         });
 </script>
 ```
+# Ce qu'il faut retenir
+
+## Jquery
+
+jQuery est une librairie JavaScript qui sert à simplifier la partie cliente d'HTML en facilitant l'accès à un document, la sélection des éléments du DOM, la création d'animations, et la gestion d'évènements. jQuery donne aussi la capacité aux dévelopeurs de créer des plugins par dessus la librairie JavaScript. Plus généralement, Jquery permet de développer des applications web de type AJAX (Fonctionalités asynchrones), les bénéfices principaux sont:
+* Updater une page web sans avoir à la reloader
+* Requeter un serveur de façon asynchrone
+* Recevoir des données d'un serveur de façon asynchroneEnvoyer des données à un serveur en tâches de fond.
 
 # Bonus
 
