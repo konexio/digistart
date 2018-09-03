@@ -321,7 +321,7 @@ Avant de passer à l'étape suivante, vérifier que les liens redirige tous sur 
 
 Avant de finir la semaine 1, vérifier qu'après avoir sélectionné un mois et après avoir cliqué sur `M'inscrire` que la page a été rafraîchi et que le lien a changé avec la valeur `?month=Janvier` (si vous avez sélectionné `Janvier`)
 
-# Ce qu'il faut retenir
+# Les termes à retenir
 
 Avant d'écrire du code, voici les points de vocabulaire à connaître :
 
