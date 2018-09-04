@@ -9,7 +9,7 @@
 - Décompresser le fichier
 - Ouvrir votre éditeur de texte `VSCode`
 
-  - Dans la barre de tâches utilisez `Fichier > Ouvrir un dossier`
+  - Dans la barre des tâches utilisez `Fichier > Ouvrir un dossier`
   - Rechercher le dossier que vous venez de créer et cliquer sur le dossier `week1` puis cliquer sur `Ouvrir`
 
 Votre dossier contient 4 dossiers et 2 fichiers, c'est normal.
@@ -72,7 +72,7 @@ Sinon, appeler un formateur.
 
 # Remplir les métadonnées
 
-Les informations dans l'élément `head` ne sont pas visibles dans la page mais servent pour Google ou le navigateur.
+Les informations dans l'élément `head` ne sont pas visibles dans la page mais sont utiles pour Google ou le navigateur.
 
 - Dans l'élément `head`, créer la balise `title` avec pour contenu le texte `Konexio`
 
@@ -89,11 +89,11 @@ Les informations dans l'élément `head` ne sont pas visibles dans la page mais 
 
 </details>
 
-- Enfin, enregistrer le fichier en allant dans la barre de tâches de `VSCode` et cliquer sur `Fichier > Enregistrer`
+- Enfin, enregistrer le fichier en allant dans la barre des tâches de `VSCode` et cliquer sur `Fichier > Enregistrer`
 
 ## Vérification
 
-Avant de passer à l'étape suivante, rafraîchir la page du navigateur `Chrome` et regarder le titre de la tab changer en `Konexio`
+Avant de passer à l'étape suivante, rafraîchir la page du navigateur `Chrome` et regarder le titre de l'onglet changer en `Konexio`
 
 Sinon, appeler un formateur.
 
@@ -131,7 +131,7 @@ Bootstrap est un fichier CSS différent du fichier HTML. Il faudra faire un lien
 
 ## Vérification
 
-Avant de passer à l'étape suivante, rafraîchir la page et regarder si le texte `Hello World!` à changer de police d'écriture.
+Avant de passer à l'étape suivante, rafraîchir la page et regarder si le texte `Hello World!` a changé de police d'écriture.
 Sinon, appeler un formateur.
 
 # La section entête
@@ -139,7 +139,7 @@ Sinon, appeler un formateur.
 La page va contenir différentes sections : l'entête, les apprenants, les bénévoles, les EPN (Espaces Public Numériques) et l'équipe.
 Dans un premier temps, nous allons définir les éléments principaux de ces pages.
 
-- Dans l'élément `body`, effacer le texte `Hello World!` dans l'élément `body`
+- Dans l'élément `body`, effacer le texte `Hello World!`
 - Toujours dans l'élément `body` créer une balise `section` avec l'attribut `id` de valeur `header`
 
   - Dans cet élément, créer une balise `div` avec l'attribut `class` de valeur `container`
@@ -152,7 +152,7 @@ Dans un premier temps, nous allons définir les éléments principaux de ces pag
 ## A savoir
 
 - On utilise l'attribut `id` pour un élément qui sera unique
-- On utilise l'attribut `class` pour des éléments qui vont partager les mêmes
+- On utilise l'attribut `class` pour des éléments qui vont partager les mêmes attributs
 - Un commentaire s'écrit toujours avec les caractères `<!-- -->` avec votre commentaire au milieu. Ce commentaire n'apparaîtra jamais sur votre page, il vous permet d'ajouter des informations pour expliquer votre code
 
 ## Vérification
@@ -168,7 +168,7 @@ A la suite de la section de l'entête, on va reproduire la même structure à qu
   - Dans cet élément, créer une balise `div` avec l'attribut `class`de valeur `container`
     - Dans cet élément, créer une balise `div` avec l'attribut `class` de valeur `row`
       - Dans cet élément, créer une balise auto-fermante `img` avec l'attribut `src` de valeur `./img/student.jpg` et l'attribut `alt` de valeur `Etudiant à Konexio`
-      - A la suite, créer une balise `p` avec le texte `Apprenez à utiliser un ordinateur, les outils de bureautiques ou à programmer. Chacune de nos formations aboutie à une certification`
+      - A la suite, créer une balise `p` avec le texte `Apprenez à utiliser un ordinateur, les outils de bureautiques ou à programmer. Chacune de nos formations aboutit à une certification`
       - Créer une balise `button` avec le texte `Je veux étudier`
 - Enfin, ajouter un commentaire `<!-- /section#students -->` juste après la balise fermante `</section>`
 
@@ -241,7 +241,7 @@ A la suite de la section "EPN", reproduire la même structure jusqu'à la `div` 
   - avec le nom `Binta Jammeh`
   - avec la fonction `Directrice des programmes`
 
-- Reproduire cette structure une deuxième fois :
+- Reproduire cette structure à nouveau :
   - avec la photo `denis.jpg` du même dossier
   - avec le nom `Denis Robert`
   - avec la fonction `Formateur`
@@ -261,10 +261,10 @@ Avant de passer à l'étape suivante, vérifier que les 3 images s'affichent.
 - A l'intérieur, créer une balise `div` de classe `footer-list`
   - Dans cet élément, créer une balise `h3` avec le texte `Konexio`
   - A la suite, créer une balise `ul`
-  - Dans cet élément, créer une balise `li`
-    - Créer une balise `a` avec l'attribut `href` de valeur `http://konexio.eu` et avec le texte `Mentions légales`
-  - Créer cette même structure avec la valeur `li` en changeant le texte de la balise `a` avec `Vie privée`
-  - Une dernière fois avec le texte `Conditions d'utilisations`
+    - Dans cet élément, créer une balise `li`
+      - Créer une balise `a` avec l'attribut `href` de valeur `http://konexio.eu` et avec le texte `Mentions légales`
+    - Créer cette même structure avec la balise `li` en changeant le texte de la balise `a` avec `Vie privée`
+    - Et une dernière fois, avec le texte `Conditions d'utilisations`
 - Penser à mettre un commentaire qui montre la fermeture de la colonne
 
 ### 2ème colonne
@@ -297,7 +297,7 @@ Maintenant que vous êtes à l'aise avec l'écriture de l'HTML et que la structu
 
 ## Vérification
 
-Avant de passer à l'étape suivante, vérifier que les liens redirige tous sur la section désirée.
+Avant de passer à l'étape suivante, vérifier que les liens redirigent tous sur la section désirée.
 
 # Formulaire
 
@@ -319,7 +319,7 @@ Avant de passer à l'étape suivante, vérifier que les liens redirige tous sur 
 
 ## Vérification
 
-Avant de finir la semaine 1, vérifier qu'après avoir sélectionné un mois et après avoir cliqué sur `M'inscrire` que la page a été rafraîchi et que le lien a changé avec la valeur `?month=Janvier` (si vous avez sélectionné `Janvier`)
+Avant de finir la semaine 1, vérifier qu'après avoir sélectionné un mois et après avoir cliqué sur `M'inscrire` que la page a été rafraîchie et que le lien a changé avec la valeur `?month=Janvier` (si vous avez sélectionné `Janvier`)
 
 # Les termes à retenir
 
@@ -327,7 +327,7 @@ Avant d'écrire du code, voici les points de vocabulaire à connaître :
 
 ## HTML
 
-L'HTML est un langage informatique crée en 1990 au CERN. L'acronyme signifie HyperText Markup Language, ce qui signifie en français "langage de balisage d'hypertexte". Cette signification porte bien son nom puisqu'effectivement ce langage permet de réaliser de l'hypertexte à base d'une structure de balisage.
+L'HTML est un langage informatique créé en 1990 au CERN. L'acronyme signifie HyperText Markup Language, ce qui signifie en français "langage de balisage d'hypertexte". Cette signification porte bien son nom puisqu'effectivement ce langage permet de réaliser de l'hypertexte à base d'une structure de balisage.
 
 ## CSS
 
@@ -342,6 +342,7 @@ Håkon Wium Lie a publié la première version du "Cascading HTML Style Sheets" 
 ## Attribut
 
 - quand on parle de : "balise `div` avec l'attribut `class` de valeur `row`" alors vous devrez écrire `<div class="row"></div>`. Vous remarquerez que tous les attributs s'écrivent avec un `=""` et la valeur s'écrit entre les guillemets.
+- quand on parle de : "balise auto-fermante `img` avec l'attribut `src` avec la valeur `./img/volunteers.jpg`", alors vous devez écrire `<img src="./img/volunteers.jpg"/>`.
 
 # Bonus
 
@@ -349,11 +350,11 @@ Vous avez tout fini ? Vous voulez un challenge de plus ?
 
 ## Bonus 1 : Favicon
 
-Le favicon est la petite icone dans la tab du navigateur à côté du titre.
+Le favicon est la petite icone dans l'onglet du navigateur à côté du titre.
 Pour ajouter un favicon, rechercher sur Google `how to add favicon in html`. Cliquez et lisez les premiers liens jusqu'à ce que vous vous sentiez à l'aise avec le concept.
 
 Une fois prêt(e), ajouter le favicon qui se trouve dans le dossier `img` avec le nom `favicon.ico`
 
 ## Bonus 2 : Formulaire de contact
 
-Essayer de reproduire le formulaire de contact. Pour le recréer, vous aurez besoin des balises déjà utilisés et des balises `input` et `textarea`
+Essayer de reproduire le formulaire de contact. Pour le recréer, vous aurez besoin des balises déjà utilisées et des balises `input` et `textarea`. Bonne chance !
