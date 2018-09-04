@@ -7,25 +7,25 @@
 - Si vous avez réussi la trame principale la semaine dernière, ouvrir le fichier `index.html` dans le dossier `week1`
 - Sinon, ouvrir le fichier `index.html` dans le dossier `week2`
 
-* Dans la barre de tâches utilisez `Fichier > Ouvrir un dossier`
+* Dans la barre des tâches utilisez `Fichier > Ouvrir un dossier`
 * Rechercher le dossier que vous venez de créer et cliquer sur le dossier ci-dessus puis cliquer sur `Ouvrir`
 
 # Attention
 
-Pendant toutes les étapes de cette semaine, penser à rafraîchir la page à chaque fois que vous ajouter une classe. Cela permettra de comprendre comment une classe modifie votre élément.
+Pendant toutes les étapes de cette semaine, penser à rafraîchir la page à chaque fois que vous ajoutez une classe. Cela permettra de comprendre comment une classe modifie votre élément.
 
 # Introduction
 
 Pour faciliter le travail du développeur, il existe des solutions qui aide à ordonner le code sans trop d'effort. C'est le cas de Bootstrap qui est un UI framework écrit en CSS.
-En utilisant Bootstrap, on pourra utiliser et réutiliser les meilleures pratiques dans la création de site web.
+En utilisant Bootstrap, on pourra utiliser et réutiliser les meilleures pratiques pour la création de site web.
 
 Bootstrap est un fichier CSS différent du fichier HTML. Il faudra faire un lien pour inclure le fichier Bootstrap dans notre page HTML.
 
-Dans l'élément `head`
+Dans l'élément `head`:
 
 - Créer une balise auto-fermante `link`
-  - Créer l'attribut `rel` avec la valeur `stylesheet`
-  - Créer l'attribut `href` avec le chemin relatif du fichier qui s'appelle `bootstrap.min.css` dans le dossier `css`
+  - Ajouter l'attribut `rel` avec la valeur `stylesheet`
+  - Ajouter l'attribut `href` avec le chemin relatif du fichier qui s'appelle `bootstrap.min.css` dans le dossier `css`
 
 ## A savoir
 
@@ -49,11 +49,11 @@ Parfait ! Bootstrap est inclus dans la page, maintenant on va rajouter un peu de
 
 ## A savoir
 
-- Quand on cherche un élément et que la page devient longue, penser à utiliser la fonction de recherche `ctrl+f`
+- Quand on cherche un élément et que la page devient longue, pensez à utiliser la fonction de recherche `ctrl+f`
 
 ## Vérification
 
-Avant de passer à l'étape suivante, regarder si les éléments changés ont un fond bleu ciel.
+Avant de passer à l'étape suivante, regardez si les éléments changés ont un fond bleu ciel.
 
 # Bootstrapiser la navigation
 
@@ -84,7 +84,7 @@ Dans l'élément `section` avec l'id `header`
 
 ## A savoir
 
-- La classe `row` que l'on a beaucoup écrit la semaine dernière est une classe Bootstrap qui définit une ligne. Une ligne contient 12 colonnes. Donc pour faire une ligne, ajouter des classes qui font un total de 12. Par exemple
+- La classe `row` que l'on a beaucoup écrit la semaine dernière est une classe Bootstrap qui définit une ligne. Une ligne contient 12 colonnes. Donc pour faire une ligne, ajouter des classes qui font un total de 12. Par exemple:
   - 2 éléments avec les classes `col-6`
   - 3 éléments avec les classes `col-4`
   - etc...
@@ -104,11 +104,11 @@ Dans l'élément `section` d'id `students`
 
 ## A savoir
 
-- La classe `img-fluid` qui s'applique aux images permette que celle ci prenne tout l'espace dans la colonne où elle se trouve
+- La classe `img-fluid` permet aux images (uniquement) de prendre tout l'espace dans la colonne où elle se trouve
 
 ## Vérification
 
-Avant de passer à l'étape suivante, regarder si l'image et le texte sont sur deux colonnes différentes.
+Avant de passer à l'étape suivante, regarder si l'image et le texte sont dans deux colonnes différentes.
 
 # Stucturer la section "bénévoles"
 
