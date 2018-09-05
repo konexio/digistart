@@ -7,7 +7,7 @@
 - Si vous avez réussi la trame principale la semaine dernière, ouvrir le fichier `index.html` dans le dossier utilisé la dernière fois
 - Sinon, ouvrir le fichier `index.html` dans le dossier `week4`
 
-* Dans la barre de tâches utilisez `Fichier > Ouvrir un dossier`
+* Dans la barre des tâches utilisez `Fichier > Ouvrir un dossier`
 * Rechercher le dossier que vous venez de créer et cliquer sur le dossier ci-dessus puis cliquer sur `Ouvrir`
 
 # Les liens (ancres)
