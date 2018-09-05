@@ -7,7 +7,7 @@
 - Si vous avez réussi la trame principale la semaine dernière, ouvrir le fichier `index.html` dans le dossier utilisé la dernière fois
 - Sinon, ouvrir le fichier `index.html` dans le dossier `week3`
 
-* Dans la barre de tâches utilisez `Fichier > Ouvrir un dossier`
+* Dans la barre des tâches utilisez `Fichier > Ouvrir un dossier`
 * Rechercher le dossier que vous venez de créer et cliquer sur le dossier ci-dessus puis cliquer sur `Ouvrir`
 
 # Attention
@@ -16,7 +16,7 @@ Pour les 3 premières étapes, on va faire un mini exercice que l'on va effacer 
 
 # Mini exercice
 
-Il y a 3 manières de faire du CSS : avec une feuille de style séparée, embarqué et inline.
+Il y a 3 manières de faire du CSS : avec une feuille de style séparée, de manière embarquée ou encore inline.
 Pour cet exercice, on va ajouter du style au formulaire.
 
 ## Feuille de style séparée
@@ -75,7 +75,7 @@ Dans l'élément `form` de l'entête
 ### A savoir
 
 - Le style dans l'attribut n'a pas besoin de sélecteur puisqu'on est déjà dans l'élément ciblé.
-- Si vous rajoutez le mot clé `!important` sur le sélecteur `form` et la propriété `border-width` dans le fichier CSS (`border-width: 1px !important;`), alors le formulaire aura une bordure de `1px` malgré la cascade. Le mot clé `!important` permet de casser le principe de la cascade. Il est important de connaître ce principe, mais déconseiller de l'utiliser quand on débute.
+- Si vous rajoutez le mot clé `!important` sur le sélecteur `form` et la propriété `border-width` dans le fichier CSS (`border-width: 1px !important;`), alors le formulaire aura une bordure de `1px` malgré la cascade. Le mot clé `!important` permet de casser le principe de la cascade. Il est important de connaître ce principe, mais déconseillé de l'utiliser quand on débute.
 
 ### Vérification
 
@@ -96,7 +96,7 @@ Dans le fichier `styles.css`
 - Ecrire un commentaire avec le texte `BASE STYLE`
 - Ajouter un sélecteur `section`
   - Avec la propriété `padding-top` avec la valeur `40px`
-  - et la propriété `padding-bottom` avec la valeur `40px`
+  - et avec la propriété `padding-bottom` avec la valeur `40px`
 
 ## A savoir
 
@@ -222,15 +222,15 @@ Pour passer à l'étape suivante, regarder si l'image a des bords arrondis et qu
 Dans le fichier `styles.css`
 
 - Ajouter le commentaire `TEAM`
-- Regarder dans l'HTML la classe qui est partagé entre les 3 éléménts qui contiennent les infos de l'équipe et créer un sélecteur avec
+- Regarder dans l'HTML la classe qui est partagée entre les 3 éléménts qui contiennent les infos de l'équipe et créer un sélecteur avec
   - Ajouter la propriété `text-align` avec la valeur `center`
 
 * Sur les images des membres de l'équipe, créer un sélecteur et
   - Ajouter les propriétés `height` et `width` de valeur 100 pixels
-  - Ajouter les bordures arrondis avec une valeur de 50 pixels
+  - Ajouter les bordures arrondies avec une valeur de 50 pixels
   - Ajouter une marge en bas de 15 pixels
 
-- Sur l'élément qui conteint le métier des membres
+- Sur l'élément qui contient le métier des membres
   - Changer la couleur en `#0475ba`
 
 ## Vérification
@@ -254,4 +254,4 @@ Pour passer à l'étape suivante, regarder si le pied de page a de l'espace en h
 
 # Bonus #1 : Box shadow
 
-Ajouter des box shadow sur la barre de navigation et les images de la pages [https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
+Ajouter des box shadow sur la barre de navigation et les images de la page [https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
