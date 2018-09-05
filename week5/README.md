@@ -7,7 +7,7 @@
 - Si vous avez réussi la trame principale la semaine dernière, ouvrir le fichier `index.html` dans le dossier utilisé la dernière fois
 - Sinon, ouvrir le fichier `index.html` dans le dossier `week5`
 
-* Dans la barre de tâches utilisez `Fichier > Ouvrir un dossier`
+* Dans la barre des tâches utilisez `Fichier > Ouvrir un dossier`
 * Rechercher le dossier que vous venez de créer et cliquer sur le dossier ci-dessus puis cliquer sur `Ouvrir`
 
 # Smooth scrolling
@@ -108,7 +108,8 @@ Voici le code que vous allez reproduire ensemble
 jQuery est une librairie JavaScript qui sert à simplifier la partie cliente d'HTML en facilitant l'accès à un document, la sélection des éléments du DOM, la création d'animations, et la gestion d'évènements. jQuery donne aussi la capacité aux dévelopeurs de créer des plugins par dessus la librairie JavaScript. Plus généralement, Jquery permet de développer des applications web de type AJAX (Fonctionalités asynchrones), les bénéfices principaux sont:
 * Updater une page web sans avoir à la reloader
 * Requeter un serveur de façon asynchrone
-* Recevoir des données d'un serveur de façon asynchroneEnvoyer des données à un serveur en tâches de fond.
+* Recevoir des données d'un serveur de façon asynchrone
+* Envoyer des données à un serveur en tâches de fond
 
 # Bonus
 
