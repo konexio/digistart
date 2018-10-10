@@ -99,8 +99,8 @@ Sinon, appeler un formateur.
 
 # Bootstrap
 
-Pour faciliter le travail du développeur, il existe des solutions qui aide à ordonner le code sans trop d'effort. C'est le cas de Bootstrap qui est un UI framework écrit en CSS.
-En utilisant Bootstrap, on pourra utiliser et réutiliser les meilleures pratiques dans la création de site web.
+Pour faciliter le travail du développeur, il existe des solutions qui aident à ordonner le code sans trop d'effort . C'est le cas de Bootstrap qui est un UI framework écrit en CSS.
+En utilisant Bootstrap, on pourra utiliser et réutiliser les meilleures pratiques dans la création de sites webs.
 
 Bootstrap est un fichier CSS différent du fichier HTML. Il faudra faire un lien pour inclure le fichier Bootstrap dans notre page HTML.
 
@@ -165,7 +165,7 @@ Sinon, appeler un formateur.
 A la suite de la section de l'entête, on va reproduire la même structure à quelque chose près. Sauf pour l'`id` qui sera de valeur `students`
 
 - Créer la balise `section` avec l'attribut `id` de valeur `students`
-  - Dans cet élément, créer une balise `div` avec l'attribut `class`de valeur `container`
+  - Dans cet élément, créer une balise `div` avec l'attribut `class` de valeur `container`
     - Dans cet élément, créer une balise `div` avec l'attribut `class` de valeur `row`
       - Dans cet élément, créer une balise auto-fermante `img` avec l'attribut `src` de valeur `./img/student.jpg` et l'attribut `alt` de valeur `Etudiant à Konexio`
       - A la suite, créer une balise `p` avec le texte `Apprenez à utiliser un ordinateur, les outils de bureautiques ou à programmer. Chacune de nos formations aboutit à une certification`
@@ -336,7 +336,7 @@ Håkon Wium Lie a publié la première version du "Cascading HTML Style Sheets" 
 ## Balise
 
 - quand on parle de : "balise `div`" alors on parle d'un élément HTML de nom `div` qui s'écrit en HTML : `<div>`. Vous devrez l'écrire dans votre code comme ci-suit : `<div></div>` car toute balise ouverte doit être fermée, comme une boîte.
-- quand on parle de : "balise auto-fermante `img`" alors on parme d'un élément HTML de nom `img` qui s'écrit comme ça : `<img />`
+- quand on parle de : "balise auto-fermante `img`" alors on parle d'un élément HTML de nom `img` qui s'écrit comme ça : `<img />`
 - les mots `balise` et `élément` sont équivalents en HTML.
 
 ## Attribut
