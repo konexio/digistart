@@ -101,15 +101,37 @@ Voici le code que vous allez reproduire ensemble
 </script>
 ```
 
+# Publier sa page sur internet
+
+Votre page est terminée, il est temps de la mettre en ligne.
+
+- Aller sur le site [Github](https://github.com/)
+  - Créer un compte si vous en avez pas, autrement connectez-vous à votre compte
+  - Valider votre inscription avec le lien reçu dans votre boîte email
+- Télécharger, installer et se connecter au [Github Desktop](https://desktop.github.com/)
+- Revenir sur la page Github et cliquer sur le "+" en haut à droite et cliquer sur `New repository`
+  - Dans le `Repository name`, écrire `<username>.github.io` où `username` sera votre nom de compte (le même qui est déjà apparant dans la partie `Owner`)
+  - Pas de `description`,
+  - Garder le repository `Public`,
+  - Laisser la case `Initialize this repository with README` décoché
+  - Cliquer sur `Create repository`
+- Une fois créée, une nouvelle page s'affichera et cliquer sur le bouton à gauche `Set up in desktop` et l'application Github Desktop va s'ouvrir
+  - Cliquer sur le lien `open this repository` dans la fenêtre centrale et une fenêtre de l'explorateur Windows s'ouvrira
+  - Copier tout le projet dans ce dossier
+- Revenir sur le Github Desktop, ajouter le texte `first commit` dans le champs `Summary` et cliquer `Commit to master`
+  - Ensuite cliquer sur `Publish branch`
+  - Visiter le site `username.github.io` et partager le lien avec vos ami.e.s!
+
 # Les termes à retenir
 
 ## Jquery
 
 jQuery est une librairie JavaScript qui sert à simplifier la partie cliente d'HTML en facilitant l'accès à un document, la sélection des éléments du DOM, la création d'animations, et la gestion d'évènements. jQuery donne aussi la capacité aux dévelopeurs de créer des plugins par dessus la librairie JavaScript. Plus généralement, Jquery permet de développer des applications web de type AJAX (Fonctionalités asynchrones), les bénéfices principaux sont:
-* Updater une page web sans avoir à la reloader
-* Requeter un serveur de façon asynchrone
-* Recevoir des données d'un serveur de façon asynchrone
-* Envoyer des données à un serveur en tâches de fond
+
+- Updater une page web sans avoir à la reloader
+- Requeter un serveur de façon asynchrone
+- Recevoir des données d'un serveur de façon asynchrone
+- Envoyer des données à un serveur en tâches de fond
 
 # Bonus
 
