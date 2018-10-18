@@ -10,6 +10,49 @@
 * Dans la barre des tâches utilisez `Fichier > Ouvrir un dossier`
 * Rechercher le dossier que vous venez de créer et cliquer sur le dossier ci-dessus puis cliquer sur `Ouvrir`
 
+# La navigation
+
+Maintenant que vous êtes à l'aise avec l'écriture de l'HTML et que la structure est présente, on va revenir en haut de la page pour ajouter la barre de navigation
+
+- Ajouter la balise `nav` entre la balise d'ouverture `body` et la balise d'ouverture `section` avec l'`id` `header`
+  - Dans cet élément, créer une ancre avec le texte `Konexio` et l'attribut `href` avec la valeur `#header`, l'ancre sera elle-même dans une balise `h2`
+  - Créer une balise `ul` dans laquelle il y aura 4 fois :
+    - une balise `li` avec une ancre à l'intérieur
+      - chaque ancre aura le texte `Etudiants`, `Bénévoles`, `Les EPN`, `L'équipe`
+      - chaque ancre aura un attribut `href` avec l'`id` de la section qu'il appelle précédé d'un dièse (hashtag). Par exemple, l'ancre avec le texte `Etudiants` aura un attribut `href="#students"`
+
+## A savoir
+
+- Une ancre qui appelle un `id` va permettre de scroller directement sur la page à l'endroit où se trouve cet attribut `id`
+
+## Vérification
+
+Avant de passer à l'étape suivante, vérifier que les liens redirigent tous sur la section désirée.
+
+# Formulaire
+
+On va finir encore un peu d'HTML cette semaine avant de commencer le CSS.
+
+- Dans la section entête avec l'`id` `header`, ajouter la balise `aside` en dessous de la balise `p`
+
+  - Dans cet élément, créer une balise `form` avec l'attribut `action` de valeur `index.html`
+    - Dans cet élément, créer une balise `h4` avec le texte `Programme Digistart`
+    - A la suite, créer une balise `label` avec le texte `S'inscrire à la session`
+    - A la suite, créer une balise `select` avec l'attribut `name` de valeur `month`
+    - Ensuite, une balise `button` avec le texte `M'inscrire` et l'attribut `type` de valeur `submit`
+
+- Dans la balise `select`
+  - Créer une balise `option` avec le texte `Choisir` et l'attribut `value` qui est vide
+  - Créer 4 balises `option` avec le texte et l'attribut `value` de valeur `Janvier`, `Mars`, `Juin`, `Septembre`
+
+## A savoir
+
+- Le formulaire est une balise qui permet au visiteur d'effectuer des actions sur le site.
+
+## Vérification
+
+Avant de passer à l'étape suivante, vérifier qu'après avoir sélectionné un mois et après avoir cliqué sur `M'inscrire` que la page a été rafraîchie et que le lien a changé avec la valeur `?month=Janvier` (si vous avez sélectionné `Janvier`)
+
 # Attention
 
 Pendant toutes les étapes de cette semaine, penser à rafraîchir la page à chaque fois que vous ajoutez une classe. Cela permettra de comprendre comment une classe modifie votre élément.

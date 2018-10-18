@@ -127,6 +127,7 @@ Bootstrap est un fichier CSS différent du fichier HTML. Il faudra faire un lien
 ## A savoir
 
 - Une balise auto-fermante est une balise qui se ferme directement. Par exemple, la balise `img` est auto-fermante et s'écrit comme ça : `<img />`
+- Quand on parle de : "balise `div` avec l'attribut `class` de valeur `row`" alors vous devrez écrire `<div class="row"></div>`. Vous remarquerez que tous les attributs s'écrivent avec un `=""` et la valeur s'écrit entre les guillemets.
 - Les chemins des fichiers sont relatifs au fichier qui les appelle. Ici, le fichier Bootstrap se trouve dans le dossier `css` qui est adjacent au fichier `index.html`
 
 ## Vérification
@@ -153,6 +154,7 @@ Dans un premier temps, nous allons définir les éléments principaux de ces pag
 
 - On utilise l'attribut `id` pour un élément qui sera unique
 - On utilise l'attribut `class` pour des éléments qui vont partager les mêmes attributs
+- Quand on parle de : "balise `div` avec l'attribut `class` de valeur `row`" alors vous devrez écrire `<div class="row"></div>`. Vous remarquerez que tous les attributs s'écrivent avec un `=""` et la valeur s'écrit entre les guillemets.
 - Un commentaire s'écrit toujours avec les caractères `<!-- -->` avec votre commentaire au milieu. Ce commentaire n'apparaîtra jamais sur votre page, il vous permet d'ajouter des informations pour expliquer votre code
 
 ## Vérification
@@ -278,48 +280,7 @@ Avant de passer à l'étape suivante, vérifier que les 3 images s'affichent.
 
 ## Vérification
 
-Avant de passer à l'étape suivante, assurez-vous que tous vos textes s'affichent avec un fond bleu
-
-# La navigation
-
-Maintenant que vous êtes à l'aise avec l'écriture de l'HTML et que la structure est présente, on va revenir en haut de la page pour ajouter la barre de navigation
-
-- Ajouter la balise `nav` entre la balise d'ouverture `body` et la balise d'ouverture `section` avec l'`id` `header`
-  - Dans cet élément, créer une ancre avec le texte `Konexio` et l'attribut `href` avec la valeur `#header`, l'ancre sera elle-même dans une balise `h2`
-  - Créer une balise `ul` dans laquelle il y aura 4 fois :
-    - une balise `li` avec une ancre à l'intérieur
-      - chaque ancre aura le texte `Etudiants`, `Bénévoles`, `Les EPN`, `L'équipe`
-      - chaque ancre aura un attribut `href` avec l'`id` de la section qu'il appelle précédé d'un dièse (hashtag). Par exemple, l'ancre avec le texte `Etudiants` aura un attribut `href="#students"`
-
-## A savoir
-
-- Une ancre qui appelle un `id` va permettre de scroller directement sur la page à l'endroit où se trouve cet attribut `id`
-
-## Vérification
-
-Avant de passer à l'étape suivante, vérifier que les liens redirigent tous sur la section désirée.
-
-# Formulaire
-
-- Dans la section entête avec l'`id` `header`, ajouter la balise `aside` en dessous de la balise `p`
-
-  - Dans cet élément, créer une balise `form` avec l'attribut `action` de valeur `index.html`
-    - Dans cet élément, créer une balise `h4` avec le texte `Programme Digistart`
-    - A la suite, créer une balise `label` avec le texte `S'inscrire à la session`
-    - A la suite, créer une balise `select` avec l'attribut `name` de valeur `month`
-    - Ensuite, une balise `button` avec le texte `M'inscrire` et l'attribut `type` de valeur `submit`
-
-- Dans la balise `select`
-  - Créer une balise `option` avec le texte `Choisir` et l'attribut `value` qui est vide
-  - Créer 4 balises `option` avec le texte et l'attribut `value` de valeur `Janvier`, `Mars`, `Juin`, `Septembre`
-
-## A savoir
-
-- Le formulaire est une balise qui permet au visiteur d'effectuer des actions sur le site.
-
-## Vérification
-
-Avant de finir la semaine 1, vérifier qu'après avoir sélectionné un mois et après avoir cliqué sur `M'inscrire` que la page a été rafraîchie et que le lien a changé avec la valeur `?month=Janvier` (si vous avez sélectionné `Janvier`)
+Avant de finir la semaine 1, assurez-vous que tous vos textes s'affichent avec un fond bleu
 
 # Les termes à retenir
 
@@ -336,7 +297,7 @@ Håkon Wium Lie a publié la première version du "Cascading HTML Style Sheets" 
 ## Balise
 
 - quand on parle de : "balise `div`" alors on parle d'un élément HTML de nom `div` qui s'écrit en HTML : `<div>`. Vous devrez l'écrire dans votre code comme ci-suit : `<div></div>` car toute balise ouverte doit être fermée, comme une boîte.
-- quand on parle de : "balise auto-fermante `img`" alors on parme d'un élément HTML de nom `img` qui s'écrit comme ça : `<img />`
+- quand on parle de : "balise auto-fermante `img`" alors on parle d'un élément HTML de nom `img` qui s'écrit comme ça : `<img />`
 - les mots `balise` et `élément` sont équivalents en HTML.
 
 ## Attribut
