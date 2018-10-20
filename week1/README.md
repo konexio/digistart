@@ -198,7 +198,7 @@ A la suite de la section étudiants, reproduire la même structure jusqu'à la `
 
 - Ensuite, créer la balise `p` avec le texte `Vous avez envie d'aider des personnes qui cherchent à apprendre et à s'intégrer ? Si vous avez des connaissances en informatique de bureau, sur Excel ou en programmation, envoyez nous un message`
 - Créer la balise `button` avec le texte `Je veux aider`
-- Créer la balise `img` avec l'attribut `src` avec la valeur `./img/volunteers.jpg` et l'attribut `alt` avec la valeur `Professeur à Konexio`
+- Créer la balise `img` avec l'attribut `src` avec la valeur `./img/volunteer.jpg` et l'attribut `alt` avec la valeur `Professeur à Konexio`
 
 ## A savoir
 
