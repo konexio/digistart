@@ -228,7 +228,7 @@ Sinon, essayer de trouver la solution par vous-même avant d'appeler un formateu
 
 # La section "équipe"
 
-A la suite de la section "EPN", reproduire la même structure jusqu'à la `div` de classe `row`
+A la suite de la section "EPN", reproduire la même structure jusqu'à la `div` de classe `row` mais avec la `section` d'`id` de valeur `team`
 
 - Ensuite, créer la balise `div` de classe `team-member`
 
