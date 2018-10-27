@@ -57,32 +57,9 @@ Avant de passer à l'étape suivante, vérifier qu'après avoir sélectionné un
 
 Pendant toutes les étapes de cette semaine, penser à rafraîchir la page à chaque fois que vous ajoutez une classe. Cela permettra de comprendre comment une classe modifie votre élément.
 
-# Introduction
-
-Pour faciliter le travail du développeur, il existe des solutions qui aide à ordonner le code sans trop d'effort. C'est le cas de Bootstrap qui est un UI framework écrit en CSS.
-En utilisant Bootstrap, on pourra utiliser et réutiliser les meilleures pratiques pour la création de site web.
-
-Bootstrap est un fichier CSS différent du fichier HTML. Il faudra faire un lien pour inclure le fichier Bootstrap dans notre page HTML.
-
-Dans l'élément `head`:
-
-- Créer une balise auto-fermante `link`
-  - Ajouter l'attribut `rel` avec la valeur `stylesheet`
-  - Ajouter l'attribut `href` avec le chemin relatif du fichier qui s'appelle `bootstrap.min.css` dans le dossier `css`
-
-## A savoir
-
-- Une balise auto-fermante est une balise qui se ferme directement. Par exemple, la balise `img` est auto-fermante et s'écrit comme ça : `<img />`
-- Les chemins des fichiers sont relatifs au fichier qui les appelle. Ici, le fichier Bootstrap se trouve dans le dossier `css` qui est adjacent au fichier `index.html`
-
-## Vérification
-
-Avant de passer à l'étape suivante, rafraîchir la page et regarder si les textes ont changé de police d'écriture.
-Sinon, appeler un formateur.
-
 # Habillage
 
-Parfait ! Bootstrap est inclus dans la page, maintenant on va rajouter un peu de couleurs à notre page.
+Bootstrap est inclus dans la page (depuis la semaine dernière), maintenant on va rajouter un peu de couleurs à notre page.
 
 - Rajouter la classe `bg-info` aux éléments suivants :
   - l'élément `nav` (pour trouver l'élément, faire `ctrl+f` et taper `<nav>`)

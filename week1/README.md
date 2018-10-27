@@ -271,7 +271,7 @@ Avant de passer à l'étape suivante, vérifier que les 3 images s'affichent.
 
 ### 2ème colonne
 
-- Reproduire la même structure à la suite avec le titre `Réseaux sociaux` et les textes `Instagram`, `Twitter` et `Facebook`
+- Reproduire la même structure de balises utilisé pour la 1ère colonne à la suite. Penser à changer le titre avec `Réseaux sociaux` et les textes des ancres par `Instagram`, `Twitter` et `Facebook`. Garder les mêmes valeurs pour la balise `href` car ce n'est qu'un test
 
 ## A savoir
 
