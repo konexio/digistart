@@ -157,6 +157,8 @@ Dans l'élément `section` d'id `gallery`
 
 Dans l'élément `section` d'id `team`
 
+- Ajouter une balise `h2` juste après la balise d'ouverture de classe `row`
+  - Dans cet élément, ajouter le texte `L'équipe`
 - Englober la balise `h2` avec une balise `div` de classe `col-12`
 - Ajouter une classe `col-4` à toutes les `div` de classe `team-member`
 
@@ -183,7 +185,9 @@ Dans l'élément `head`
   - Créer l'attribut `rel` avec la valeur `stylesheet`
   - Créer l'attribut `href` avec le chemin relatif du fichier qui s'appelle `all.min.css` dans le dossier `css`
 
-- Dans les ancres, ajouter des balises `i` avec la classe `fab`
+Dans l'élément `footer`
+
+- Dans les ancres, ajouter des balises `i` avec la classe `fab` dans la 2è colonne
   - Et pour chaque lien correspondant, ajouter la classe `fa-instagram`, `fa-twitter` et `fa-facebook`
 
 ## Vérification
