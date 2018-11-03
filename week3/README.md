@@ -34,7 +34,7 @@ Pour cet exercice, on va ajouter du style au formulaire.
 
 - Rafraîchir la page et regarder si le formulaire a une bordure noire.
 
-* A la suite, créer un nouveau sélecteur `form`
+* Dans la feuille de style, à la suite, créer un nouveau sélecteur `form`
   - Avec la propriété `border-color`
   - Et la valeur `purple`
 
@@ -70,7 +70,7 @@ Pour passer à l'étape suivante, regarder si le formulaire a une bordure en poi
 
 Dans l'élément `form` de l'entête
 
-- Ajouter une balise `style` avec la valeur `border-width: 3px;`
+- Ajouter un attribut `style` avec la valeur `border-width: 3px;`
 
 ### A savoir
 
