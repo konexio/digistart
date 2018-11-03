@@ -188,7 +188,7 @@ Dans l'élément `head`
 Dans l'élément `footer`
 
 - Dans les ancres, ajouter des balises `i` avec la classe `fab` dans la 2è colonne
-  - Et pour chaque lien correspondant, ajouter la classe `fa-instagram`, `fa-twitter` et `fa-facebook`
+  - Et pour chaque balise `i`, ajouter la classe `fa-instagram`, `fa-twitter` et `fa-facebook`
 
 ## Vérification
 
