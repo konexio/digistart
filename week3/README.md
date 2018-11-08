@@ -137,7 +137,7 @@ Dans le fichier `styles.css`
   - Ajouter la propriété `color` avec la couleur blanche.
   - Ajouter la valeur `padding-top` à 160 pixels.
 
-- Créer le sélecteur du titre `p` qui est dans l'entête
+- Créer le sélecteur du titre `p` qui est dans l'entête. Ce sélecteur s'appliquera uniquement aux éléments `p` dans l'entête.
   - Ajouter la propriété `font-size` de valeur `2em`
 
 Dans le fichier `index.html`
@@ -147,6 +147,7 @@ Dans le fichier `index.html`
 ## A savoir
 
 - La classe Bootstrap `fixed-top` fixe la navigation en haut de page, vous pouvez scroller pour voir l'effet
+- Pour appliquer une règle CSS à un élément à l'intérieur d'un autre élément, on peut mettre les éléments à la suite des uns et des autres. Le sélecteur `nav a` ne s'appliquera qu'aux balise `a` dans la balise `nav`
 
 ## Vérification
 
