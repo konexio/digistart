@@ -197,7 +197,6 @@ Pour passer à l'étape suivante, regarder si l'image a des bords arrondis et qu
 # Styliser la section "bénévoles"
 
 - Créer un sélecteur pour le texte
-  - Changer la couleur en blanc
   - Ajouter une margin intérieur de 100 pixels en haut
 - Créer un sélecteur pour l'image
   - Ajouter la propriété pour arrondir les bords de 5 pixels
