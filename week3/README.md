@@ -148,6 +148,7 @@ Dans le fichier `index.html`
 
 - La classe Bootstrap `fixed-top` fixe la navigation en haut de page, vous pouvez scroller pour voir l'effet
 - Pour appliquer une règle CSS à un élément à l'intérieur d'un autre élément, on peut mettre les éléments à la suite des uns et des autres. Le sélecteur `nav a` ne s'appliquera qu'aux balise `a` dans la balise `nav`
+- Pour les tailles de polices d'écritures, on peut utiliser l'unité de mesure `em` au lieu de `px`. La différence, c'est que `em` est un multiplicateur. `0.5em` sera moitié moins grand et `2em` sera deux fois plus grand que les autres textes.
 
 ## Vérification
 
