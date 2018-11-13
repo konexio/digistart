@@ -79,7 +79,7 @@ Quand l'écran est petit, le texte tient sur une ligne entière et le formulaire
 - Dans Bootstrap,
   - le grand écran est défini par `lg` (large)
   - l'écran de taille moyenne est défini par `md` (medium)
-  - le petit écran est défini par `xs` (extra small)
+  - le petit écran est défini par `sm` (small)
 
 ## Vérification
 
