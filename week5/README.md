@@ -40,7 +40,7 @@ Dans le fichier `index.html` dans la section galerie
 - Englober chaque image avec une balise `div` de classe `swiper-slide`
 - Dans la `div.swiper-container` mais en dehors de la `div.swiper-wrapper` ajouter la `div.swiper-pagination`
 
-Dans la balise head, ajouter la balise `link` avec l'attribut `rel` de valeur `stylesheet` et l'attribut `href` de valeur `./css/swiper.min.css`
+Dans la balise `head`, ajouter la balise `link` avec l'attribut `rel` de valeur `stylesheet` et l'attribut `href` de valeur `./css/swiper.min.css`
 
 Avant la dernière balise script, créer une balise script avec l'attribut `src` de valeur `./js/swiper.min.js`
 
