@@ -31,7 +31,7 @@ Avant de passer à l'étape suivante, cliquer sur les menus de la navigation pou
 
 # Galerie d'images
 
-Aller sur la [documentation](http://idangero.us/swiper/api/)
+Aller sur la [documentation](http://idangero.us/swiper/api/) pour comprendre comment une documentation de plugin fonctionne.
 
 Dans le fichier `index.html` dans la section galerie
 
@@ -40,22 +40,26 @@ Dans le fichier `index.html` dans la section galerie
 - Englober chaque image avec une balise `div` de classe `swiper-slide`
 - Dans la `div.swiper-container` mais en dehors de la `div.swiper-wrapper` ajouter la `div.swiper-pagination`
 
+Dans la balise head, ajouter la balise `link` avec l'attribut `rel` de valeur `stylesheet` et l'attribut `href` de valeur `./css/swiper.min.css`
+
+Avant la dernière balise script, créer une balise script avec l'attribut `src` de valeur `./js/swiper.min.js`
+
 Dans la dernière balise `script` créée
 
 - Ajouter ce code à la suite du premier
 
 ```html
 <script>
-    const scroll = new SmoothScroll('a[href*="#"]');
+  const scroll = new SmoothScroll('a[href*="#"]');
 
-    const mySwiper = new Swiper('.swiper-container', {
-            speed: 400,
-            pagination: {
-                el: '.swiper-pagination',
-                type: 'bullets',
-                clickable: true
-            }
-        });
+  const mySwiper = new Swiper(".swiper-container", {
+    speed: 400,
+    pagination: {
+      el: ".swiper-pagination",
+      type: "bullets",
+      clickable: true
+    }
+  });
 </script>
 ```
 
@@ -86,18 +90,18 @@ Voici le code que vous allez reproduire ensemble
 ```html
 <script src="./js/jquery-3.3.1.min.js"></script>
 <script>
-    jQuery(() => {
-            jQuery('select').on('change', (e) => {
-                const value = e.target.value;
-                const subscribeBtn = $('form button');
+  jQuery(() => {
+    jQuery("select").on("change", e => {
+      const value = e.target.value;
+      const subscribeBtn = $("form button");
 
-                if (value !== '') {
-                    subscribeBtn.attr('disabled', false);
-                } else {
-                    subscribeBtn.attr('disabled', true);
-                }
-            })
-        });
+      if (value !== "") {
+        subscribeBtn.attr("disabled", false);
+      } else {
+        subscribeBtn.attr("disabled", true);
+      }
+    });
+  });
 </script>
 ```
 
