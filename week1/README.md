@@ -26,8 +26,7 @@ Votre dossier contient 4 dossiers et 2 fichiers, c'est normal.
 
 ```html
 <!DOCTYPE html>
-<html>
-</html>
+<html></html>
 ```
 
 </details>
@@ -44,11 +43,10 @@ La page HTML fonctionne comme des poupées russes. Il s'agit d'une suite de boî
 ```html
 <!DOCTYPE html>
 <html>
-    <head>
-    </head>
-    <body>
-        Hello World!
-    </body>
+  <head> </head>
+  <body>
+    Hello World!
+  </body>
 </html>
 ```
 
@@ -70,6 +68,11 @@ Avant de passer à l'étape suivante, faire un clic-droit sur le fichier dans la
 Si vous voyez une page blanche avec le texte `Hello World!` en haut à gauche, alors vous avez réussi. Garder la fenêtre ouverte, on va la réutiliser constamment.
 Sinon, appeler un formateur.
 
+<details>
+    <summary>✔ Checkpoint</summary>
+    <img src="screenshots/week1-1.png" width="200" height="200" />
+</details>
+
 # Remplir les métadonnées
 
 Les informations dans l'élément `head` ne sont pas visibles dans la page mais sont utiles pour Google ou le navigateur.
@@ -82,7 +85,7 @@ Les informations dans l'élément `head` ne sont pas visibles dans la page mais 
 ```html
 ...
 <head>
-    <title>Konexio</title>
+  <title>Konexio</title>
 </head>
 ...
 ```
@@ -96,6 +99,11 @@ Les informations dans l'élément `head` ne sont pas visibles dans la page mais 
 Avant de passer à l'étape suivante, rafraîchir la page du navigateur `Chrome` et regarder le titre de l'onglet changer en `Konexio`
 
 Sinon, appeler un formateur.
+
+<details>
+    <summary>✔ Checkpoint</summary>
+    <img src="screenshots/week1-2.png" width="500" height="auto" />
+</details>
 
 # Bootstrap
 
@@ -116,8 +124,8 @@ Bootstrap est un fichier CSS différent du fichier HTML. Il faudra faire un lien
 ```html
 ...
 <head>
-    <title>Konexio</title>
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <title>Konexio</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
 </head>
 ...
 ```
@@ -134,6 +142,11 @@ Bootstrap est un fichier CSS différent du fichier HTML. Il faudra faire un lien
 
 Avant de passer à l'étape suivante, rafraîchir la page et regarder si le texte `Hello World!` a changé de police d'écriture.
 Sinon, appeler un formateur.
+
+<details>
+  <summary>✔ Checkpoint</summary>
+  <img src="screenshots/week1-3.png" width="500" height="auto"/><br>
+</details>
 
 # La section entête
 
@@ -161,6 +174,11 @@ Dans un premier temps, nous allons définir les éléments principaux de ces pag
 
 Avant de passer à l'étape suivante, rafraîchir la page et vérifier que votre texte s'affiche bien et qu'il a une marge à gauche.
 Sinon, appeler un formateur.
+
+<details>
+  <summary>✔ Checkpoint</summary>
+  <img src="screenshots/week1-4.png" width="500" height="auto"/><br>
+</details>
 
 # La section "étudiants"
 
@@ -192,6 +210,11 @@ Avant de passer à l'étape suivante, vérifier que :
 
 Sinon, appelez un formateur.
 
+<details>
+  <summary>✔ Checkpoint</summary>
+  <img src="screenshots/week1-5.png" width="500" height="auto"/><br>
+</details>
+
 # La section "bénévoles"
 
 A la suite de la section étudiants, reproduire la même structure jusqu'à la `div` de classe `row` mais avec l'`id` de valeur `volunteers`
@@ -207,6 +230,11 @@ A la suite de la section étudiants, reproduire la même structure jusqu'à la `
 ## Vérification
 
 Avant de passer à l'étape suivante, vérifier que le paragraphe, le bouton et l'image apparaîssent.
+
+<details>
+  <summary>✔ Checkpoint</summary>
+  <img src="screenshots/week1-6.png" width="500" height="auto"/><br>
+</details>
 
 # La section "EPN"
 
@@ -225,6 +253,11 @@ A la suite de la section bénévoles, reproduire la même structure jusqu'à la 
 
 Avant de passer à l'étape suivante, vérifier que les 3 images apparaîssent les unes à côté des autres.
 Sinon, essayer de trouver la solution par vous-même avant d'appeler un formateur.
+
+<details>
+  <summary>✔ Checkpoint</summary>
+  <img src="screenshots/week1-7.png" width="500" height="auto"/><br>
+</details>
 
 # La section "équipe"
 
@@ -251,6 +284,11 @@ A la suite de la section "EPN", reproduire la même structure jusqu'à la `div` 
 ## Vérification
 
 Avant de passer à l'étape suivante, vérifier que les 3 images s'affichent.
+
+<details>
+  <summary>✔ Checkpoint</summary>
+  <img src="screenshots/week1-8.png" width="500" height="auto"/><br>
+</details>
 
 # Le pied de page
 
@@ -281,6 +319,11 @@ Avant de passer à l'étape suivante, vérifier que les 3 images s'affichent.
 ## Vérification
 
 Avant de finir la semaine 1, assurez-vous que tous vos textes s'affichent avec un fond bleu
+
+<details>
+  <summary>✔ Checkpoint</summary>
+  <img src="screenshots/week1-9.png" width="500" height="auto"/><br>
+</details>
 
 # Les termes à retenir
 
@@ -316,6 +359,16 @@ Pour ajouter un favicon, rechercher sur Google `how to add favicon in html`. Cli
 
 Une fois prêt(e), ajouter le favicon qui se trouve dans le dossier `img` avec le nom `favicon.ico`
 
+<details>
+  <summary>✔ Checkpoint</summary>
+  <img src="screenshots/week1-bonus1.png" width="500" height="auto"/><br>
+</details>
+
 ## Bonus 2 : Formulaire de contact
 
 Essayer de reproduire le formulaire de contact. Pour le recréer, vous aurez besoin des balises déjà utilisées et des balises `input` et `textarea`. Bonne chance !
+
+<details>
+  <summary>✔ Checkpoint</summary>
+  <img src="screenshots/week1-bonus2.png" width="500" height="auto"/><br>
+</details>

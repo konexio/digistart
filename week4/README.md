@@ -27,6 +27,12 @@ Dans le fichier `styles.css` dans la partie `BASE STYLE`
 
 Pour passer à l'étape suivante, regarder si les liens de la navigation et du footer sont blancs.
 
+<details>
+    <summary>✔ Checkpoint</summary>
+    <img src="screenshots/week4-1.png" width="500" height="auto" />
+    <img src="screenshots/week4-2.png" width="500" height="auto" />
+</details>
+
 # Du bleu Konexio
 
 Dans le fichier `styles.css` dans la partie `BASE STYLE`
@@ -40,6 +46,11 @@ Dans le fichier `styles.css` dans la partie `BASE STYLE`
 ## Vérification
 
 Pour passer à l'étape suivante, regarder si le bleu de la page a changé.
+
+<details>
+    <summary>✔ Checkpoint</summary>
+    <img src="screenshots/week4-3.png" width="500" height="auto" />
+</details>
 
 # Styliser les puces en pied de pages
 
@@ -57,6 +68,11 @@ Dans le fichier `styles.css` dans la partie `PIED DE PAGE`
 ## Vérification
 
 Pour passer à l'étape suivante, regarder si les puces ont disparu.
+
+<details>
+    <summary>✔ Checkpoint</summary>
+    <img src="screenshots/week4-4.png" width="200" height="200" />
+</details>
 
 # Entête responsive
 
@@ -85,6 +101,13 @@ Quand l'écran est petit, le texte tient sur une ligne entière et le formulaire
 
 Pour passer à l'étape suivante, réduire la fenêtre et voir les 3 breakpoints s'effectuer sur la page.
 
+<details>
+    <summary>✔ Checkpoint</summary>
+    <img src="screenshots/week4-5.png" width="500" height="auto" />
+    <img src="screenshots/week4-6.png" width="500" height="auto" />
+    <img src="screenshots/week4-7.png" width="500" height="auto" />
+</details>
+
 # Section "étudiants" responsive
 
 ## 1er breakpoint
@@ -98,6 +121,12 @@ Quand l'écran est petit, mettre l'image sur une ligne et le texte sur l'autre l
 ## Vérification
 
 Pour passer à l'étape suivante, réduire la fenêtre et voir les 2 breakpoints s'effectuer sur la page.
+
+<details>
+    <summary>✔ Checkpoint</summary>
+    <img src="screenshots/week4-8.png" width="500" height="auto" />
+    <img src="screenshots/week4-9.png" width="500" height="auto" />
+</details>
 
 # Section "bénévoles" responsive
 
@@ -113,6 +142,12 @@ Quand l'écran est petit, mettre l'image sur une ligne et le texte sur l'autre l
 
 Pour passer à l'étape suivante, réduire la fenêtre et voir les 2 breakpoints s'effectuer sur la page.
 
+<details>
+    <summary>✔ Checkpoint</summary>
+    <img src="screenshots/week4-10.png" width="500" height="auto" />
+    <img src="screenshots/week4-11.png" width="500" height="auto" />
+</details>
+
 # Section "équipe" responsive
 
 ## 1er breakpoint
@@ -126,6 +161,12 @@ Quand l'écran est petit, chaque membre de l'équipe est sur une ligne
 ## Vérification
 
 Pour passer à l'étape suivante, réduire la fenêtre et voir les 2 breakpoints s'effectuer sur la page.
+
+<details>
+    <summary>✔ Checkpoint</summary>
+    <img src="screenshots/week4-12.png" width="500" height="auto" />
+    <img src="screenshots/week4-13.png" width="500" height="auto" />
+</details>
 
 # Galerie responsive
 
@@ -150,6 +191,11 @@ Pour passer à l'étape suivante, réduire la fenêtre et voir les 2 breakpoints
 ## Vérification
 
 Pour passer à l'étape suivante, vérifier que les liens de la navigation disparaissent une fois l'écran réduit au plus petit
+
+<details>
+    <summary>✔ Checkpoint</summary>
+    <img src="screenshots/week4-16.png" width="500" height="auto" />
+</details>
 
 # Viewport
 
