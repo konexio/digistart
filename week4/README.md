@@ -219,6 +219,6 @@ Avec l'émergence des smartphones et des tablettes tactiles, il existe un grand 
 
 ## Bonus #1 : Police d'écriture
 
-Importer les polices `Airbnb-Cereal-Book` pour les textes et `Airbnb-Cereal-Bold` pour les titres
+Importer les polices `Airbnb-Cereal-Book` pour les textes et `Airbnb-Cereal-Bold` pour les titres qui sont déjà présentes dans le dossier `fonts`
 
 [https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face)
