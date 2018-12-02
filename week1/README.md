@@ -16,6 +16,15 @@ Votre dossier contient 4 dossiers et 2 fichiers, c'est normal.
 
 # Structure de la page HTML
 
+## 💡 A savoir
+
+- Une balise s'écrit toujours avec son nom. Prenons l'exemple de la balise `html`. Elle a une forme ouverte `<html>` et une forme fermée `</html>`.
+  Donc la balise `body` s'écrira : `<body></body>`
+
+- A l'intérieur d'une balise, on peut mettre du texte ou une autre balise
+
+## Instructions
+
 - Dans la barre des tâches de `VSCode` cliquer sur `Fichier > Nouveau fichier...` et nommer ce fichier `index.html`
 - Cliquer sur le fichier dans la barre de gauche pour l'ouvrir
 - Ecrire le doctype pour un fichier HTML5 sur la première ligne : `<!DOCTYPE html>`
@@ -53,13 +62,6 @@ La page HTML fonctionne comme des poupées russes. Il s'agit d'une suite de boî
 </details>
 
 - Enfin, enregistrer le fichier en allant dans la barre de tâches de `VSCode` et cliquer sur `Fichier > Enregistrer`
-
-## 💡 A savoir
-
-- Une balise s'écrit toujours avec son nom. Prenons l'exemple de la balise `html`. Elle a une forme ouverte `<html>` et une forme fermée `</html>`.
-  Donc la balise `body` s'écrira : `<body></body>`
-
-- A l'intérieur d'une balise, on peut mettre du texte ou une autre balise
 
 ## 🔎 Vérification
 
@@ -107,6 +109,14 @@ Sinon, appeler un formateur.
 
 # Bootstrap
 
+## A savoir
+
+- Une balise auto-fermante est une balise qui se ferme directement. Par exemple, la balise `img` est auto-fermante et s'écrit comme ça : `<img />`
+- Quand on parle de : "balise `div` avec l'attribut `class` de valeur `row`" alors vous devrez écrire `<div class="row"></div>`. Vous remarquerez que tous les attributs s'écrivent avec un `=""` et la valeur s'écrit entre les guillemets.
+- Les chemins des fichiers sont relatifs au fichier qui les appelle. Ici, le fichier Bootstrap se trouve dans le dossier `css` qui est adjacent au fichier `index.html`
+
+## Instructions
+
 Pour faciliter le travail du développeur, il existe des solutions qui aide à ordonner le code sans trop d'effort. C'est le cas de Bootstrap qui est un UI framework écrit en CSS.
 En utilisant Bootstrap, on pourra utiliser et réutiliser les meilleures pratiques dans la création de site web.
 
@@ -132,11 +142,6 @@ Bootstrap est un fichier CSS différent du fichier HTML. Il faudra faire un lien
 
 </details>
 
-## A savoir
-
-- Une balise auto-fermante est une balise qui se ferme directement. Par exemple, la balise `img` est auto-fermante et s'écrit comme ça : `<img />`
-- Quand on parle de : "balise `div` avec l'attribut `class` de valeur `row`" alors vous devrez écrire `<div class="row"></div>`. Vous remarquerez que tous les attributs s'écrivent avec un `=""` et la valeur s'écrit entre les guillemets.
-- Les chemins des fichiers sont relatifs au fichier qui les appelle. Ici, le fichier Bootstrap se trouve dans le dossier `css` qui est adjacent au fichier `index.html`
 
 ## Vérification
 
@@ -149,6 +154,15 @@ Sinon, appeler un formateur.
 </details>
 
 # La section entête
+
+## A savoir
+
+- On utilise l'attribut `id` pour un élément qui sera unique
+- On utilise l'attribut `class` pour des éléments qui vont partager les mêmes attributs
+- Quand on parle de : "balise `div` avec l'attribut `class` de valeur `row`" alors vous devrez écrire `<div class="row"></div>`. Vous remarquerez que tous les attributs s'écrivent avec un `=""` et la valeur s'écrit entre les guillemets.
+- Un commentaire s'écrit toujours avec les caractères `<!-- -->` avec votre commentaire au milieu. Ce commentaire n'apparaîtra jamais sur votre page, il vous permet d'ajouter des informations pour expliquer votre code
+
+## Instructions
 
 La page va contenir différentes sections : l'entête, les apprenants, les bénévoles, les EPN (Espaces Public Numériques) et l'équipe.
 Dans un premier temps, nous allons définir les éléments principaux de ces pages.
@@ -163,13 +177,6 @@ Dans un premier temps, nous allons définir les éléments principaux de ces pag
 
 - Enfin, ajouter un commentaire `<!-- /section#header -->` juste après la balise fermante `</section>`
 
-## A savoir
-
-- On utilise l'attribut `id` pour un élément qui sera unique
-- On utilise l'attribut `class` pour des éléments qui vont partager les mêmes attributs
-- Quand on parle de : "balise `div` avec l'attribut `class` de valeur `row`" alors vous devrez écrire `<div class="row"></div>`. Vous remarquerez que tous les attributs s'écrivent avec un `=""` et la valeur s'écrit entre les guillemets.
-- Un commentaire s'écrit toujours avec les caractères `<!-- -->` avec votre commentaire au milieu. Ce commentaire n'apparaîtra jamais sur votre page, il vous permet d'ajouter des informations pour expliquer votre code
-
 ## Vérification
 
 Avant de passer à l'étape suivante, rafraîchir la page et vérifier que votre texte s'affiche bien et qu'il a une marge à gauche.
@@ -182,6 +189,16 @@ Sinon, appeler un formateur.
 
 # La section "étudiants"
 
+## A savoir
+
+- Une balise auto-fermante est une balise qui se ferme directement. Par exemple, la balise `img` est auto-fermante et s'écrit comme ça : `<img />`
+- Les chemins des fichiers sont relatifs au fichier qui les appelle. Ici, le fichier Bootstrap se trouve dans le dossier `css` qui est adjacent au fichier `index.html`
+
+* La balise `img` nécessite l'attribut `src` qui contient le chemin relatif vers l'image qui se trouve dans le dossier de votre ordinateur qui s'appelle aussi `img`.
+* La balise `img` nécessite l'attribut `alt` qui contient un texte qui définit ce qu'il y a dans l'image. Cet attribut est obligatoire pour des raisons d'accessibilité.
+
+# Instructions
+
 A la suite de la section de l'entête, on va reproduire la même structure à quelque chose près. Sauf pour l'`id` qui sera de valeur `students`
 
 - Créer la balise `section` avec l'attribut `id` de valeur `students`
@@ -192,13 +209,6 @@ A la suite de la section de l'entête, on va reproduire la même structure à qu
       - Créer une balise `button` avec le texte `Je veux étudier`
 - Enfin, ajouter un commentaire `<!-- /section#students -->` juste après la balise fermante `</section>`
 
-## A savoir
-
-- Une balise auto-fermante est une balise qui se ferme directement. Par exemple, la balise `img` est auto-fermante et s'écrit comme ça : `<img />`
-- Les chemins des fichiers sont relatifs au fichier qui les appelle. Ici, le fichier Bootstrap se trouve dans le dossier `css` qui est adjacent au fichier `index.html`
-
-* La balise `img` nécessite l'attribut `src` qui contient le chemin relatif vers l'image qui se trouve dans le dossier de votre ordinateur qui s'appelle aussi `img`.
-* La balise `img` nécessite l'attribut `alt` qui contient un texte qui définit ce qu'il y a dans l'image. Cet attribut est obligatoire pour des raisons d'accessibilité.
 
 ## Vérification
 
@@ -217,15 +227,17 @@ Sinon, appelez un formateur.
 
 # La section "bénévoles"
 
+## A savoir
+
+- La balise `img` est toujours auto-fermante.
+
+## Instructions
+
 A la suite de la section étudiants, reproduire la même structure jusqu'à la `div` de classe `row` mais avec l'`id` de valeur `volunteers`
 
 - Ensuite, créer la balise `p` avec le texte `Vous avez envie d'aider des personnes qui cherchent à apprendre et à s'intégrer ? Si vous avez des connaissances en informatique de bureau, sur Excel ou en programmation, envoyez nous un message`
 - Créer la balise `button` avec le texte `Je veux aider`
 - Créer la balise `img` avec l'attribut `src` avec la valeur `./img/volunteer.jpg` et l'attribut `alt` avec la valeur `Professeur à Konexio`
-
-## A savoir
-
-- La balise `img` est toujours auto-fermante.
 
 ## Vérification
 
@@ -238,16 +250,18 @@ Avant de passer à l'étape suivante, vérifier que le paragraphe, le bouton et 
 
 # La section "EPN"
 
-A la suite de la section bénévoles, reproduire la même structure jusqu'à la `div` de classe `row`, mais avec l'`id` `gallery`
-
-- Ensuite, créer la balise `img` et afficher l'image qui se trouve dans le dossier `img`, puis dans le dossier `gallery` et avec le nom `gallery1.jpg`
-- Créer 2 autres balises avec 2 autres images qui viennent du même dossier.
-
 ## A savoir
 
 - Regarder la syntaxe des images précédentes pour comprendre comment afficher une nouvelle image.
 - Ne pas oublier de mettre un commentaire à la fin de la section
 - Ne pas oublier de mettre un attribut `alt` sur chaque image.
+
+## Instructions
+
+A la suite de la section bénévoles, reproduire la même structure jusqu'à la `div` de classe `row`, mais avec l'`id` `gallery`
+
+- Ensuite, créer la balise `img` et afficher l'image qui se trouve dans le dossier `img`, puis dans le dossier `gallery` et avec le nom `gallery1.jpg`
+- Créer 2 autres balises avec 2 autres images qui viennent du même dossier.
 
 ## Vérification
 
@@ -260,6 +274,13 @@ Sinon, essayer de trouver la solution par vous-même avant d'appeler un formateu
 </details>
 
 # La section "équipe"
+
+## A savoir
+
+- La balise `a` signifie `ancre` c'est la balise qui représente un lien. Quand on clique dessus, vous irez sur le site de Konexio
+- La balise `ul` (unordered list) aura toujours des balises `li` (list item) à l'intérieur.
+
+## Instructions
 
 A la suite de la section "EPN", reproduire la même structure jusqu'à la `div` de classe `row` mais avec la `section` d'`id` de valeur `team`
 
@@ -310,11 +331,6 @@ Avant de passer à l'étape suivante, vérifier que les 3 images s'affichent.
 ### 2ème colonne
 
 - Reproduire la même structure de balises utilisé pour la 1ère colonne à la suite. Penser à changer le titre avec `Réseaux sociaux` et les textes des ancres par `Instagram`, `Twitter` et `Facebook`. Garder les mêmes valeurs pour la balise `href` car ce n'est qu'un test
-
-## A savoir
-
-- La balise `a` signifie `ancre` c'est la balise qui représente un lien. Quand on clique dessus, vous irez sur le site de Konexio
-- La balise `ul` (unordered list) aura toujours des balises `li` (list item) à l'intérieur.
 
 ## Vérification
 

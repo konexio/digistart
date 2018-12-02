@@ -21,6 +21,14 @@ Pour cet exercice, on va ajouter du style au formulaire.
 
 ## Feuille de style séparée
 
+### A savoir
+
+- Pour créer un fichier dans `VSCode`, utiliser la barre des tâches `Fichier > Nouveau fichier`
+- Les propriétés `border-*` ont un raccourci : `border: 1px black solid`;
+- Voici un exemple de la cascade du CSS, quand on utilise la même propriété avec le même sélecteur, c'est celui qui se retrouve le plus bas de la `cascade` qui sera appliqué.
+
+### Instructions
+
 - Créer un fichier `styles.css` dans le dossier `css`
 - Dans ce fichier, créer le sélecteur `form`
   - Dans ce sélecteur, mettre les propriétés
@@ -38,12 +46,6 @@ Pour cet exercice, on va ajouter du style au formulaire.
   - Avec la propriété `border-color`
   - Et la valeur `purple`
 
-### A savoir
-
-- Pour créer un fichier dans `VSCode`, utiliser la barre des tâches `Fichier > Nouveau fichier`
-- Les propriétés `border-*` ont un raccourci : `border: 1px black solid`;
-- Voici un exemple de la cascade du CSS, quand on utilise la même propriété avec le même sélecteur, c'est celui qui se retrouve le plus bas de la `cascade` qui sera appliqué.
-
 ### Vérification
 
 Pour passer à l'étape suivante, regarder si le formulaire a une bordure violette.
@@ -55,17 +57,19 @@ Pour passer à l'étape suivante, regarder si le formulaire a une bordure violet
 
 ## Style embarqué
 
+### A savoir
+
+- La balise `style` accepte du CSS
+- Le principe de cascade continue à s'appliquer car la balise `style` est après le fichier CSS.
+
+### Instructions
+
 Dans l'élément `head`
 
 - Créer la balise `style`
   - Avec le selecteur `form`
   - La propriété `border-style`
   - Et la valeur `dashed`
-
-### A savoir
-
-- La balise `style` accepte du CSS
-- Le principe de cascade continue à s'appliquer car la balise `style` est après le fichier CSS.
 
 ### Vérification
 
@@ -78,14 +82,16 @@ Pour passer à l'étape suivante, regarder si le formulaire a une bordure en poi
 
 ## Inline style
 
-Dans l'élément `form` de l'entête
-
-- Ajouter un attribut `style` avec la valeur `border-width: 3px;`
-
 ### A savoir
 
 - Le style dans l'attribut n'a pas besoin de sélecteur puisqu'on est déjà dans l'élément ciblé.
 - Si vous rajoutez le mot clé `!important` sur le sélecteur `form` et la propriété `border-width` dans le fichier CSS (`border-width: 1px !important;`), alors le formulaire aura une bordure de `1px` malgré la cascade. Le mot clé `!important` permet de casser le principe de la cascade. Il est important de connaître ce principe, mais déconseillé de l'utiliser quand on débute.
+
+### Instructions
+
+Dans l'élément `form` de l'entête
+
+- Ajouter un attribut `style` avec la valeur `border-width: 3px;`
 
 ### Vérification
 
@@ -104,6 +110,14 @@ Pour la suite des exercices, penser à enregistrer et rafraîchir la page à cha
 
 # Marges intérieures
 
+## A savoir
+
+- Un commentaire en CSS s'écrit : `/** commentaire **/`
+- Pour les propriétés `padding-*` il y a le raccourci `padding` qui attend 4 valeurs qui dans l'ordre sont le `top`, `right`, `bottom`, `left`
+- Il y a aussi les propriétés `margin-*` et `margin` pour les marges extérieures
+
+## Instructions
+
 On va créer des marges pour espacer chaque section.
 
 Dans le fichier `styles.css`
@@ -112,12 +126,6 @@ Dans le fichier `styles.css`
 - Ajouter un sélecteur `section`
   - Avec la propriété `padding-top` avec la valeur `40px`
   - et avec la propriété `padding-bottom` avec la valeur `40px`
-
-## A savoir
-
-- Un commentaire en CSS s'écrit : `/** commentaire **/`
-- Pour les propriétés `padding-*` il y a le raccourci `padding` qui attend 4 valeurs qui dans l'ordre sont le `top`, `right`, `bottom`, `left`
-- Il y a aussi les propriétés `margin-*` et `margin` pour les marges extérieures
 
 ## Vérification
 
@@ -130,18 +138,20 @@ Pour passer à l'étape suivante, regarder si les sections sont espacées entres
 
 # Styliser le fond de l'entête
 
+## A savoir
+
+- Les chemins sont relatifs au fichier CSS. Pour remonter d'un niveau on utilise `../` au lieu d'un `./`
+- Appeler une image en CSS se fait avec le mot clé `url()`. Voici un exemple `background-image: url(./image.jpg)`
+- Il y a un raccourci pour les propriétés `background-*` qui est `background`
+
+## Instructions
+
 Dans le fichier `styles.css`
 
 - Ajouter un commentaire avec le texte `HEADER`
 - Créer un sélecteur qui appelle l'`id` `header`
   - Ajouter la propriété `background-image` qui appelle l'image `img/header.jpg`
   - Ajouter la propriété `background-color` de couleur noire.
-
-## A savoir
-
-- Les chemins sont relatifs au fichier CSS. Pour remonter d'un niveau on utilise `../` au lieu d'un `./`
-- Appeler une image en CSS se fait avec le mot clé `url()`. Voici un exemple `background-image: url(./image.jpg)`
-- Il y a un raccourci pour les propriétés `background-*` qui est `background`
 
 ## Vérification
 
@@ -153,6 +163,14 @@ Pour passer à l'étape suivante, regarder si il y a une image de montagne dans 
 </details>
 
 # Styliser l'entête
+
+## A savoir
+
+- La classe Bootstrap `fixed-top` fixe la navigation en haut de page, vous pouvez scroller pour voir l'effet
+- Pour appliquer une règle CSS à un élément à l'intérieur d'un autre élément, on peut mettre les éléments à la suite des uns et des autres. Le sélecteur `nav a` ne s'appliquera qu'aux balise `a` dans la balise `nav`
+- Pour les tailles de polices d'écritures, on peut utiliser l'unité de mesure `em` au lieu de `px`. La différence, c'est que `em` est un multiplicateur. `0.5em` sera moitié moins grand et `2em` sera deux fois plus grand que les autres textes.
+
+## Instructions
 
 Dans le fichier `styles.css`
 
@@ -168,12 +186,6 @@ Dans le fichier `styles.css`
 Dans le fichier `index.html`
 
 - Ajouter la classe `fixed-top` à l'élément `nav`
-
-## A savoir
-
-- La classe Bootstrap `fixed-top` fixe la navigation en haut de page, vous pouvez scroller pour voir l'effet
-- Pour appliquer une règle CSS à un élément à l'intérieur d'un autre élément, on peut mettre les éléments à la suite des uns et des autres. Le sélecteur `nav a` ne s'appliquera qu'aux balise `a` dans la balise `nav`
-- Pour les tailles de polices d'écritures, on peut utiliser l'unité de mesure `em` au lieu de `px`. La différence, c'est que `em` est un multiplicateur. `0.5em` sera moitié moins grand et `2em` sera deux fois plus grand que les autres textes.
 
 ## Vérification
 
@@ -236,11 +248,6 @@ Pour passer à l'étape suivante, regarder si l'image a des bords arrondis et qu
 
 # Styliser la section "bénévoles"
 
-- Créer un sélecteur pour le texte
-  - Ajouter une margin intérieur de 100 pixels en haut
-- Créer un sélecteur pour l'image
-  - Ajouter la propriété pour arrondir les bords de 5 pixels
-
 ## A savoir
 
 - Plusieurs sélecteurs peuvent partager les mêmes propriétés en les séparant par une virgule :
@@ -253,6 +260,13 @@ section {
 ```
 
 Cela peut vous aider pour unir le style des sections "étudiants" et "bénévoles".
+
+## Instructions
+
+- Créer un sélecteur pour le texte
+  - Ajouter une margin intérieur de 100 pixels en haut
+- Créer un sélecteur pour l'image
+  - Ajouter la propriété pour arrondir les bords de 5 pixels
 
 ## Vérification
 

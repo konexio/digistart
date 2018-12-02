@@ -12,16 +12,18 @@
 
 # Les liens (ancres)
 
+## A savoir
+
+- Utiliser les pseudo classes pour styliser les intéractions basiques. La pseudo-classe `:hover` permet de styliser un élément quand on passe la souris dessus. Ex : `img:hover { border: 1px black solid }` qui va ajouter une border quand on passe la souris sur l'image
+
+## Instructions
+
 Il est temps de rendre cette page belle.
 
 Dans le fichier `styles.css` dans la partie `BASE STYLE`
 
 - Transformer tous les liens de la page en blanc.
 - Penser à transformer leurs pseudo classes `:hover`, `:active` et `:visited`
-
-## A savoir
-
-- Utiliser les pseudo classes pour styliser les intéractions basiques. La pseudo-classe `:hover` permet de styliser un élément quand on passe la souris dessus. Ex : `img:hover { border: 1px black solid }` qui va ajouter une border quand on passe la souris sur l'image
 
 ## Vérification
 
@@ -35,13 +37,15 @@ Pour passer à l'étape suivante, regarder si les liens de la navigation et du f
 
 # Du bleu Konexio
 
-Dans le fichier `styles.css` dans la partie `BASE STYLE`
-
-- Surcharger les classes Bootstrap `bg-info` et `btn-info` et changer leur couleurs avec le bleu Konexio `#0475ba`
-
 ## A savoir
 
 - Penser à regarder s'il n'y a pas le mot clé `!important` qui vous empêcherait de changer directement la classe
+
+## Instructions
+
+Dans le fichier `styles.css` dans la partie `BASE STYLE`
+
+- Surcharger les classes Bootstrap `bg-info` et `btn-info` et changer leur couleurs avec le bleu Konexio `#0475ba`
 
 ## Vérification
 
@@ -54,16 +58,18 @@ Pour passer à l'étape suivante, regarder si le bleu de la page a changé.
 
 # Styliser les puces en pied de pages
 
+## A savoir
+
+- Pour espacer des éléments entre eux, les marges peuvent être utiles
+
+## Instructions
+
 Dans le fichier `styles.css` dans la partie `PIED DE PAGE`
 
 - Créer le sélecteur qui cible les `ul` du pied de page
   - Utiliser la propriété `list-style` avec la valeur `none`
   - Changer la valeur de la marge pour aligner les liens du footer avec leur titre
   - Espacer les liens entre eux
-
-## A savoir
-
-- Pour espacer des éléments entre eux, les marges peuvent être utiles
 
 ## Vérification
 
@@ -75,6 +81,15 @@ Pour passer à l'étape suivante, regarder si les puces ont disparu.
 </details>
 
 # Entête responsive
+
+## A savoir
+
+- Dans Bootstrap,
+  - le grand écran est défini par `lg` (large)
+  - l'écran de taille moyenne est défini par `md` (medium)
+  - le petit écran est défini par `sm` (small)
+
+## Instructions
 
 En vous inspirant de la [documentation](https://getbootstrap.com/docs/4.1/layout/grid/#offsetting-columns) créer 3 breakpoints pour l'entête
 
@@ -89,13 +104,6 @@ Quand l'écran est moyen, le texte et la formulaire sont à la moitié
 ## 3ème breakpoint
 
 Quand l'écran est petit, le texte tient sur une ligne entière et le formulaire passe à la ligne du dessous
-
-## A savoir
-
-- Dans Bootstrap,
-  - le grand écran est défini par `lg` (large)
-  - l'écran de taille moyenne est défini par `md` (medium)
-  - le petit écran est défini par `sm` (small)
 
 ## Vérification
 
@@ -186,7 +194,7 @@ Pour passer à l'étape suivante, réduire la fenêtre et voir les 2 breakpoints
 
 # Navigation responsive
 
-- Englober l'élément `ul` de la navigation avec une `div` de classes `collapse` et `navbar-collapse`
+- Entourer l'élément `ul` de la navigation avec une `div` de classes `collapse` et `navbar-collapse`
 
 ## Vérification
 
