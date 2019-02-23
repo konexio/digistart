@@ -1,16 +1,17 @@
 <html lang="en" dir="ltr">
   <head>
+    <link rel="stylesheet" href="./ex01.css">
     <meta charset="utf-8">
     <title></title>
   </head>
   <body>
-    <div style="display:flex; flex-direction: column; width:100px;">
+    <div class="container">
     <button onclick="firstEvent()" type="button" name="button">Mon button</button>
     <input onkeydown="secondEvent()" type="text" name="" id="inputId"></input>
 
     <p id="resId" ></p>
     <button onmouseover="thirdEvent()"  onmouseout="fourthEvent()"type="button" name="button">Passe ta souri sur moi</button>
-    <div style="width:100px;height:100px;background-color:red;"id="resOver"></div>
+    <div class="cube" id="resOver"></div>
     </div>
     <script src="./index.js">
     </script>
