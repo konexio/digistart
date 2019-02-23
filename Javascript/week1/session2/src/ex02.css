@@ -8,15 +8,6 @@
   padding: 10
 }
 
-.calcul {
-  isplay: flex; 
-  flex-direction: colomun; 
-  justify-content: space-between;
-  border-style: dotted; 
-  width: 250px; 
-  padding: 10
-}
-
 .display-content {
   border-style: dotted; 
   width: 250px; padding: 10
