@@ -5,6 +5,7 @@ function isValidNbr (nbr) {
   }
   return true
 }
+
 function isValidEmail (email) {
   
   if (email === '') {
@@ -12,6 +13,7 @@ function isValidEmail (email) {
   }
   return true
 }
+
 function passwordEqual (psw, psw1) {
   
   if (psw !== psw1) {
@@ -21,13 +23,13 @@ function passwordEqual (psw, psw1) {
 }
 
 function validateForm(event) {
+
   event.preventDefault();
   
   var email = document.forms["myForm"]["email"].value;
   var nbr = document.forms["myForm"]["nbr"].value;
   var psw = document.forms["myForm"]["psw"].value;
   var psw1 = document.forms["myForm"]["psw1"].value;
-  
   
   var validEmail = isValidEmail(email)
   var validNbr = isValidNbr(nbr)
@@ -37,7 +39,6 @@ function validateForm(event) {
     alert("Ce n\'est pas nombre valide");
     return false;
   }
-  
   
   if (validEmail === false) {
     alert("Email ne peut pas etre vide");
@@ -49,9 +50,7 @@ function validateForm(event) {
     return false;
   }
   
-  
   alert("SUPER !!!😁😁😁😁😁😁😁😁");
-  
   return true
   
 }
