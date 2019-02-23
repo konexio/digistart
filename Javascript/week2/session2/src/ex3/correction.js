@@ -1,4 +1,4 @@
-/* EXERCICE 3 - LE JUSTE PRIX DU MERCATO */
+/* Exercice 3 - Le Juste Prix du Mercato */
 
 var random = Math.random(0, 1) * 100;
 var price = Math.floor(random);

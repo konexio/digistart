@@ -1,4 +1,4 @@
-/* EXERCICE 1 - CHANGE LA COULEUR DE FOND DU BODY */
+/* Exercice 1 - Change la couleur de fond du body */
 
 function selectChange() {
   var color = document.getElementById('colors').value;

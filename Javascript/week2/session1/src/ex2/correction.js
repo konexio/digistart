@@ -1,7 +1,7 @@
-/* EXERCICE 2 - PASSWORD METER */
+/* Exercice 2 - Indicateur de longueur d'un mot de passe */
 
 function passwordMeter(value) {
-  console.log('longeur du mot de passe: ', value.length);
+  console.log('longueur du mot de passe: ', value.length);
   var passwordLength = value.length;
   if (passwordLength < 4) {
     document.getElementById('password-input').style.backgroundColor = 'red';
