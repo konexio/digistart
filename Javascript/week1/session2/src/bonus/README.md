@@ -4,5 +4,5 @@ Pour ce faire, vous aurez besoin d’une fonction par type d’input et une fonc
 
 * 1. une fonction pour vérifier si c’est un nombre valide
 * 2. une fonction pour vérifier si c’est un email valide
-* 3. une fonction pour vérifier si les deux mot de passe sont valide
+* 3. une fonction pour vérifier si les deux mot de passe sont valides
 * 4. une fonction pour valider le formulaire
