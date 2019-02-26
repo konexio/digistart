@@ -6,5 +6,5 @@ Pour ce faire, vous aurez besoin d’une fonction par type d’opération et une
 Pour vous aider à débuter, vous pouvez suivre l’exemple ci-joint: 
 
 
-[https://github.com/fhenri42/digistart/blob/develop/Javascript/week1/session2/src/ex02/ex02.js](index.js)
-[https://github.com/fhenri42/digistart/blob/develop/Javascript/week1/session2/src/ex02/ex02.html](index.html)
+[index.js](https://github.com/fhenri42/digistart/blob/develop/Javascript/week1/session2/src/ex02/ex02.js)
+[index.html](https://github.com/fhenri42/digistart/blob/develop/Javascript/week1/session2/src/ex02/ex02.html)
