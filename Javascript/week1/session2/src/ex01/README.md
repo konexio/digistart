@@ -1,6 +1,6 @@
 ### Exercice 1
 
-* Dans cet exercice vous allez devoir créer 3 éléments HTML  qui utilisent des types d'événements différents.
+Dans cet exercice vous allez devoir créer 3 éléments HTML qui utilisent des types d'événements différents.
 Un exemple vous sera fourni pour commencer mais libre à vous de faire d’autres événements.
 
 1. En utilisant l'événement onclick, créer une fonction qui prévient l'utilisateur à chaque clique sur le bouton
