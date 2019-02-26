@@ -1,5 +1,6 @@
+// Correction de la partie JS de l'exercice bonus
+
 function isValidNbr (nbr) {
-  
   if (isNaN(nbr)) {
     return false
   }
@@ -7,7 +8,6 @@ function isValidNbr (nbr) {
 }
 
 function isValidEmail (email) {
-  
   if (email === '') {
     return false
   }
@@ -23,7 +23,6 @@ function passwordEqual (psw, psw1) {
 }
 
 function validateForm(event) {
-
   event.preventDefault();
   
   var email = document.forms["myForm"]["email"].value;
@@ -52,5 +51,4 @@ function validateForm(event) {
   
   alert("SUPER !!!😁😁😁😁😁😁😁😁");
   return true
-  
 }
