@@ -17,5 +17,5 @@ console.log(“Action de mon button”)
 </script>
 
 ```
-### Les  differents evenements: 
+### Les  différents événements: 
 * Image
