@@ -18,7 +18,7 @@
     
   } 
 
-  /* Une fonction pour afficher le resultats de la calculatrice */ 
+  /* Une fonction pour afficher le résultats de la calculatrice */ 
   function displayRes(resId, total) {
     
   }
