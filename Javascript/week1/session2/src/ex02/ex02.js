@@ -1,29 +1,27 @@
- function add() {
-    var total = 0
-    var Sufix = document.getElementById('PrefixAdd').value
-    var prefix = document.getElementById('SufixAdd').value
-    var resId = 'addRes'
-
-    total = parseInt(Sufix, 10) + parseInt(prefix, 10)
-
-    return displayRes(resId, total)
+  /* Une function pour gérer l'addition de la calculatrice */ 
+  function add() {
+    
   }
 
-  /* 
+  /* Une function pour gérer la soustraction de la calculatrice */ 
   function sub() {
-     ...
-   }
-   function mul() {
-     ...
-   }
-   function div() {
-     ...
-   } 
-   */
+    
+  }
+  
+  /* Une function pour gérer la multiplication de la calculatrice */ 
+  function mul() {
+    
+  }
 
+  /* Une function pour gérer la division de la calculatrice */ 
+  function div() {
+    
+  } 
+
+  /* Une function pour afficher le resultats de la calculatrice */ 
   function displayRes(resId, total) {
     var element = document.getElementById(resId)
-
+    
     element.innerHTML  = total
     return
   }
